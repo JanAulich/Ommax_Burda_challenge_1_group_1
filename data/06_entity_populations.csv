@@ -1,0 +1,79 @@
+population_id,topic_key,entity_type,count,period,definition,master_list_source,master_list_availability,source_id,note
+P001,adult_education,Weiterbildungsanbieter,16841,older (year not verified),Verified continuing-education providers incl. VHS branches,mein NOW/KURSNET; AZAV-certified providers via fachkundige Stellen,fragmented,SRC354,
+P002,allied_health,öffentliche Apotheken (incl. Filialen),16601,2025,Public pharmacies at year end,Landesapothekerkammern; ABDA statistics,chamber_directory,SRC225,"12,152 main + 4,449 branches."
+P003,architecture_construction,Architects and planners in Architektenkammern,139850,as of 2023-01-01,Members of the 16 Länder architects' chambers,Architektenlisten of Länder chambers,chamber_directory,SRC276,"141,989 incl. non-members"
+P004,architecture_construction,B2B suppliers on Wer liefert was (DACH),600000,2026,"Supplier profiles incl. about 1,736 in construction category",wlw.de,commercial_database,SRC303,DACH
+P005,architecture_construction,Design and construction professionals on Houzz (global),3000000,2026,Professional profiles on Houzz worldwide,Houzz directory,commercial_database,SRC301,"Global, not DE"
+P006,architecture_construction,Housing projects submitted to Deutscher Bauherrenpreis,176,2026,Project submissions in 2026 award,deutscherbauherrenpreis.de,association_member_list,SRC300,Indicates client (Bauherr) engagement
+P007,care_elderly,ambulante Pflegedienste (ambulatory care services),15549,2023,SGB XI-licensed ambulatory care services,"Pflegekassen provider lists (e.g. vdek/AOK/BKK care search portals, Pflegelotse); Landesstatistik",fragmented,SRC184,"68.5% private, mostly small firms."
+P008,care_elderly,freigemeinnützige stationäre Pflegeeinrichtungen,8792,2023,"Non-profit inpatient facilities (Caritas, Diakonie, AWO...)",Welfare association directories + Pflegekassen portals,association_member_list,SRC185,
+P009,care_elderly,private ambulante Pflegedienste,10648,2023,Privately run ambulatory services,Pflegekassen portals,fragmented,SRC185,
+P010,care_elderly,private stationäre Pflegeeinrichtungen,6996,2023,Privately run inpatient facilities,Pflegekassen portals,fragmented,SRC185,Chains growing.
+P011,care_elderly,stationäre Pflegeeinrichtungen incl. Tages-/Nachtpflege,16505,2023,SGB XI-licensed inpatient and semi-inpatient facilities,Pflegekassen care search portals with Qualitätsdarstellung (MD/GKV data),fragmented,SRC184,Includes day care facilities.
+P012,childcare_schools,Kindertageseinrichtungen (Kitas),61000,as of 2025-03-01,Day-care facilities,"Länder/municipal Kita portals (Kita-Navigator, LITTLE BIRD), Landesjugendämter",fragmented,SRC358,
+P013,childcare_schools,Private allgemeinbildende Schulen,3800,2024/25,General-education schools in private ownership,Länder school lists; VDP/association lists,fragmented,SRC362,
+P014,consumer_sustainability,Blauer Engel licence holders (companies),1800,2026,Companies with Blue Angel certified products,Blauer Engel product database (RAL),public_register,SRC153,
+P015,consumer_sustainability,EU Ecolabel licences (EU-wide),3541,2026-03,"Licences covering 116,692 products",EU Ecolabel catalogue (ECAT),public_register,SRC152,
+P016,debt_and_credit,Schuldner- und Insolvenzberatungsstellen,1360,2025,Debt and insolvency counselling centres in Germany,meine-schulden.de Beratungsstellensuche (BAG-SB); state recognition lists under InsO,association_member_list,SRC098,"meine-schulden.de cites over 1,400"
+P017,dental_care,niedergelassene Zahnärzte,42760,2025,Self-employed dentists in own practice,KZBV/KZV Zahnarztsuche,public_register,SRC230,
+P018,dental_care,zahnärztlich aktive Zahnärzte,73511,2024,Active dentists,Landeszahnärztekammern; KZBV Zahnarztsuche,chamber_directory,SRC231,
+P019,dental_care,zahnärztliche MVZ,1511,2024,Dental medical care centres,KZBV,public_register,SRC230,"Fast-growing, investor-owned share debated."
+P020,digital_health,DiGA (digital health applications),58,2025-12-31,Apps listed in BfArM DiGA-Verzeichnis,diga.bfarm.de,public_register,SRC221,Small but well-defined universe.
+P021,digital_services,ITK-Erwerbstätige (proxy for IT service provider universe),1354000,2025,Persons employed in ITK sector,Bitkom member list; commercial databases,commercial_database,SRC373,"persons, not firms"
+P022,digital_services,NIS2-pflichtige Einrichtungen (important/essential entities),29000,2025-12,Entities obliged to register with BSI under NIS2UmsuCG,BSI registration (not public),none_known,SRC368,estimate
+P023,employers_work,Großunternehmen 250+ Beschäftigte,17327,2023,Legal units with 250+ employees,Commercial databases; Bundesanzeiger,commercial_database,SRC347,
+P024,employers_work,Kleinunternehmen 10-49 Beschäftigte,362827,2023,Legal units with 10-49 employees,Commercial databases (e.g. credit agencies); IHK membership,commercial_database,SRC347,
+P025,employers_work,Mittlere Unternehmen 50-249 Beschäftigte (Mittelstand core for TOP Arbeitgeber),75109,2023,Legal units with 50-249 employees,Commercial databases; Handelsregister,commercial_database,SRC347,"IfM 'Mittelstand' is owner-managed, not size-based"
+P026,employers_work,Unternehmen (all legal units),3469918,2023,Legal units with >EUR 22k turnover or employees,Destatis Unternehmensregister (not public by name); Handelsregister/commercial DBs,commercial_database,SRC347,
+P027,end_of_life,Ambulante Hospizdienste,1500,2026-07-06,Ambulatory hospice services incl. paediatric,Hospiz- und Palliativwegweiser (DHPV/DGP),association_member_list,SRC144,
+P028,end_of_life,Bestattungsunternehmen (funeral directors),4000,2023-2024,"Funeral businesses (estimates range ~4,000 firms to ~5,500 Handwerk businesses)",BDB Bestattersuche; Handwerkskammer rolls,fragmented,SRC147,Search-level; counts inconsistent
+P029,end_of_life,Palliativstationen,340,2026-07-06,Palliative care units in hospitals,Hospiz- und Palliativwegweiser; hospital quality reports,association_member_list,SRC144,
+P030,end_of_life,SAPV-Teams,400,2024-03-22,Specialised outpatient palliative care teams (KBV),KBV / regional KV lists,fragmented,SRC144,'more than 400'
+P031,end_of_life,Stationäre Hospize (adults),270,2026-07-06,Inpatient hospices for adults (plus 22 for children),Hospiz- und Palliativwegweiser; GKV contracts,association_member_list,SRC144,
+P032,energy_renovation,Energieeffizienz-Experten (registered energy consultants),22800,2026,"Experts listed in dena Energieeffizienz-Expertenliste (about 20,600 findable online)",energie-effizienz-experten.de search,public_register,SRC261,Excellent seed list with qualification categories
+P033,energy_renovation,Verbraucherzentrale energy advice locations,900,2024,Beratungsstellen of VZ Energieberatung,verbraucherzentrale-energieberatung.de,public_register,SRC283,Non-commercial; partner rather than list target
+P034,energy_renovation,Verbraucherzentrale energy advisers,1000,2024,Energy advisers working for VZ Energieberatung ('fast 1.000'),none known,none_known,SRC283,
+P035,financial_advice,"Credit institutions (banks, Sparkassen, Genossenschaftsbanken)",1327,2025-12-31,Credit institutions reporting to Bundesbank,Bundesbank/BaFin institution lists,public_register,SRC126,
+P036,financial_advice,Domestic bank branches,16799,2025-12-31,Zweigstellen of credit institutions,Bundesbank Bankstellenstatistik (aggregate); branch lists via banks,fragmented,SRC126,
+P037,financial_advice,Finanzanlagenvermittler (§ 34f),41050,2025-07-01,Licensed financial investment intermediaries,DIHK Vermittlerregister,public_register,SRC120,
+P038,financial_advice,Honorar-Finanzanlagenberater (§ 34h),331,2025-07-01,Fee-based investment advisers,DIHK Vermittlerregister,public_register,SRC122,
+P039,financial_advice,Immobiliardarlehensvermittler (§ 34i),58128,2026-10-01,Licensed real-estate loan intermediaries,DIHK Vermittlerregister,public_register,SRC123,
+P040,health_clinics,Krankenhäuser,1807,2025,Hospitals in Destatis hospital statistics,"Bundes-Klinik-Atlas (G-BA), Deutsches Krankenhausverzeichnis, G-BA Qualitätsberichte",public_register,SRC209,
+P041,health_clinics,hospitals shown in Bundes-Klinik-Atlas,1568,data year 2024,Hospitals with data in atlas (somatic),bundes-klinik-atlas.de,public_register,SRC213,Excludes psychiatry/psychosomatics.
+P042,health_doctors,Hausärztinnen und Hausärzte,55778,2025,GPs in statutory ambulatory care,arztsuche.116117.de (KBV),public_register,SRC201,
+P043,health_doctors,Vertragsärzte und -psychotherapeuten (statutory ambulatory care),191875,2025,Persons participating in statutory ambulatory care,Bundesarztregister / arztsuche.116117.de,public_register,SRC201,
+P044,health_doctors,berufstätige Ärztinnen und Ärzte,446000,2025,Working physicians registered with Landesärztekammern,Landesärztekammer registers; KV Arztsuche 116117,chamber_directory,SRC200,
+P045,heat_pumps,"SHK-Handwerksbetriebe (plumbing, heating, air-con businesses)",48000,2025,Businesses in the SHK trade per ZVSHK,Handwerksrolle (SHK entries) / ZVSHK Innungen,chamber_directory,SRC263,Subset installing heat pumps unknown
+P046,higher_education,Private Hochschulen,116,2025/26,State-recognised private HEIs (VPH count),"Hochschulkompass (HRK), Wissenschaftsrat accreditation list",public_register,SRC365,ZEW counts 108
+P047,home_adaptation,Large stairlift manufacturers with nationwide service,6,2025,"Providers with own production, seat lifts and nationwide on-site advice/service tested by DISQ",DISQ sample; manufacturer websites,fragmented,SRC298,Many more regional dealers exist; count unknown
+P048,insurance,Gebundene Versicherungsvertreter (tied agents),97896,2026-10-01,Register entries § 34d(7),DIHK Vermittlerregister,public_register,SRC117,
+P049,insurance,Insurance undertakings under German federal supervision,504,2023,"Life, health, P&C, reinsurers, Pensions- and Sterbekassen",BaFin Unternehmensdatenbank,public_register,SRC127,
+P050,insurance,Versicherungsberater (fee-only insurance advisers),336,2026-10-01,Register entries § 34d(2),DIHK Vermittlerregister,public_register,SRC117,"Very small, niche"
+P051,insurance,Versicherungsmakler (insurance brokers),47329,2026-10-01,Register entries with § 34d(1) broker licence,DIHK Vermittlerregister,public_register,SRC117,
+P052,legal_services,"Berufsausübungsgesellschaften (law firm companies, PartGmbB/GmbH)",5462,2026-01-01,Law firm entities admitted as chamber members,Rechtsanwaltskammern,chamber_directory,SRC131,
+P053,legal_services,Fachanwälte (certified specialist lawyers),47436,2026-01-01,"Lawyers holding at least one Fachanwaltstitel (58,177 titles)",BRAK register / Kammer directories (Fachanwaltstitel searchable),public_register,SRC131,Natural segmentation by 20+ Fachgebiete
+P054,legal_services,Legal expenses insurers (Rechtsschutzversicherer),43,2024,Insurers writing legal expenses insurance (GDV),BaFin company database / GDV,public_register,SRC127,
+P055,legal_services,Rechtsanwälte (admitted lawyers),167547,2026-01-01,All admitted lawyers incl. Syndikus and double admissions,Bundesweites Amtliches Anwaltsverzeichnis (BRAK) / 28 Rechtsanwaltskammern,public_register,SRC131,
+P056,mental_health,Psychologische Psychotherapeutinnen und Psychotherapeuten (statutory care),36197,2025,PP in statutory ambulatory care (excl. KJP and medical psychotherapists),arztsuche.116117.de; Landespsychotherapeutenkammern,public_register,SRC201,
+P057,mental_health,therapists listed on therapie.de,19100,2026,Profiles incl. Heilpraktiker (Psychotherapie),therapie.de,commercial_database,SRC236,Self-reported.
+P058,mobility_ev,Öffentliche Ladepunkte,193985,as of 2026-01-01,Publicly accessible charging points,BNetzA Ladesäulenregister (open data),public_register,SRC324,CPOs not counted separately
+P059,mobility_services,BVSK-Mitglieder (freie Kfz-Sachverständige),1044,as of 2024-05-27,Natural-person members of BVSK,BVSK directory,association_member_list,SRC391,
+P060,mobility_services,Fahrschul-Zweigstellen in Bayern,1634,as of 2025-08-22,Branch offices of driving schools in Bavaria,Länder authorities,fragmented,SRC339,
+P061,mobility_services,Fahrschulen in Bayern,1741,as of 2025-08-22,"Licensed driving schools in Bavaria (plus 1,634 branches)",Fahrlehrer/Fahrschul-Erlaubnisse at Länder authorities,fragmented,SRC339,national total not found
+P062,mobility_services,Kfz-Betriebe (Werkstätten & Autohäuser),36030,2024,Motor-trade and repair businesses counted by ZDK,Kfz-Innungen member lists; ZDK; FairGarage listings,association_member_list,SRC332,
+P063,mobility_services,Kfz-Betriebe in Innungen (>=EUR 100k turnover),35780,2025,DAT-Report definition,Kfz-Innungen,association_member_list,SRC333,
+P064,mobility_services,Kfz-Sachverständige (motor-vehicle experts),10000,not verified,"BVSK estimate of all vehicle experts, 5,000-6,000 independent","BVSK member list (1,044), IHK publicly appointed experts",fragmented,SRC399,rough estimate
+P065,real_estate_services,Enterprises in real estate activities (WZ 68),205300,2015,"Destatis structural survey, incl. brokerage and property management for third parties",Destatis Unternehmensregister,commercial_database,SRC316,Old; includes landlords
+P066,real_estate_services,Licensed real-estate loan intermediaries (§34i GewO),58014,as of 2026-07,Entries in DIHK Vermittlerregister,vermittlerregister.info,public_register,SRC313,Adjacent to brokers; no public §34c register count found
+P067,real_estate_services,Self-employed estate agents,32000,2025,Claimed number of registered self-employed estate agents,§34c permits held by IHKs/Gewerbeämter (no public register),fragmented,SRC317,Weak source without method
+P068,real_estate_services,VDIV member property management firms,4300,2025,Members of VDIV Deutschland regional associations,VDIV member directory,association_member_list,SRC275,approx. figure from site navigation
+P069,skilled_trades,Aroundhome partner companies,2000,2026,Partners receiving leads ('über 2.000'),Aroundhome,commercial_database,SRC292,Self-reported
+P070,skilled_trades,Craftsmen profiles on MyHammer,94570,2026,Number displayed on MyHammer homepage,MyHammer directory,commercial_database,SRC291,"Self-reported, definition unclear"
+P071,skilled_trades,"Handwerksbetriebe (craft businesses, all trades)",1038126,2025,"Businesses registered in Handwerksrolle (Anlage A, B1, B2), ZDH extrapolation",Handwerksrolle of the 53 Handwerkskammern,chamber_directory,SRC277,Huge universe; a TOP list would need trade/region segmentation
+P072,skilled_trades,Regional business-succession partners on nexxt-change,431,2026,"Chambers, banks and others offering succession support",nexxt-change.org,public_register,SRC302,
+P073,tax_advice,Lohnsteuerhilfevereine in BVL,287,2025-12-31,Wage-tax help associations that are BVL members,BVL member list; Oberfinanzdirektion supervisory registers,association_member_list,SRC134,Not all associations are BVL members
+P074,tax_advice,Steuerberater,89549,2026-01-01,Tax advisers registered with Steuerberaterkammern,Steuerberaterverzeichnis of the BStBK/Kammern,public_register,SRC133,Search-level figure
+P075,tax_advice,Steuerberaterpraxen (tax practices),53932,2026-01-01,Practices excluding branch offices; ~2/3 sole practices (2025),Steuerberaterkammern directories,chamber_directory,SRC133,
+P076,veterinary,Tierarztpraxen,10385,2025,"Vet practices summed across 17 chambers (some estimated, excl. chain sites in BW)",Landestierärztekammern member registers; tierarzt-onlineverzeichnis.de,chamber_directory,SRC227,
+P077,veterinary,niedergelassene Tierärzte,11216,2025,Self-employed vets,Landestierärztekammern,chamber_directory,SRC227,
+P078,veterinary,tierärztliche Kliniken,129,2025,Licensed vet clinics summed across chambers,Landestierärztekammern,chamber_directory,SRC227,

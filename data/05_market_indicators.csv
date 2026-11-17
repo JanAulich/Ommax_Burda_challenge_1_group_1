@@ -1,0 +1,634 @@
+indicator_id,topic_key,metric,metric_label,geography,period,value,unit,source_id,note
+I0001,adult_education,further_training_participation_aes,"Job-related further-training participation of employed (AES, 12 months)",DE,1997,48,percent,SRC351,age range changed to 18-69 in 2022
+I0002,adult_education,further_training_participation_aes,"Job-related further-training participation of employed (AES, 12 months)",DE,2020,60,percent,SRC351,age range changed to 18-69 in 2022
+I0003,adult_education,further_training_participation_aes,"Job-related further-training participation of employed (AES, 12 months)",DE,2022,58,percent,SRC351,age range changed to 18-69 in 2022
+I0004,adult_education,further_training_participation_aes,"Job-related further-training participation of employed (AES, 12 months)",DE,early 1990s,37,percent,SRC351,age range changed to 18-69 in 2022
+I0005,adult_education,further_training_participation_lfs,"Job-related training participation, 4-week reference (LFS)",DE,2025,5.8,percent,SRC351,age 25-64
+I0006,adult_education,wbmonitor_climate,wbmonitor business climate of CET providers,DE,2024,13,index,SRC353,
+I0007,adult_education,wbmonitor_climate,wbmonitor business climate of CET providers,DE,2025,-4,index,SRC353,scale -100..+100
+I0008,allied_health,gkv_hearing_system_spending_change,Change in GKV spending on hearing systems,DE,Q1 2026,-1.3,percent,SRC232,Total Hilfsmittel +4%.
+I0009,allied_health,people_with_longer_pharmacy_distance,People whose distance to nearest pharmacy increased,DE,2018-2023,2100000,persons,SRC226,"1.6m increased + 493,000 strongly increased."
+I0010,allied_health,pharmacies_count,Public pharmacies incl. branches,DE,2000,21592,count,SRC225,Year-end.
+I0011,allied_health,pharmacies_count,Public pharmacies incl. branches,DE,2010,21441,count,SRC225,Year-end.
+I0012,allied_health,pharmacies_count,Public pharmacies incl. branches,DE,2015,20249,count,SRC225,Year-end.
+I0013,allied_health,pharmacies_count,Public pharmacies incl. branches,DE,2020,18753,count,SRC225,Year-end.
+I0014,allied_health,pharmacies_count,Public pharmacies incl. branches,DE,2023,17571,count,SRC225,Year-end.
+I0015,allied_health,pharmacies_count,Public pharmacies incl. branches,DE,2024,17041,count,SRC225,Year-end.
+I0016,allied_health,pharmacies_count,Public pharmacies incl. branches,DE,2025,16601,count,SRC225,Year-end.
+I0017,allied_health,pharmacy_closures,Pharmacy closures,DE,2024,578,count,SRC225,
+I0018,allied_health,pharmacy_closures,Pharmacy closures,DE,2025,502,count,SRC225,62 openings.
+I0019,architecture_construction,architect_chamber_members,Members of German architects' chambers,DE,as of 2021-01-01,137153,persons,SRC276,
+I0020,architecture_construction,architect_chamber_members,Members of German architects' chambers,DE,as of 2023-01-01,139850,persons,SRC276,
+I0021,architecture_construction,architects_planners_total,Architects and urban planners (incl. non-members),DE,as of 2023-01-01,141989,persons,SRC276,
+I0022,architecture_construction,building_permits_dwellings,Dwellings approved (building permits),DE,2025,238100,dwellings,SRC278,+10.6%
+I0023,architecture_construction,building_permits_dwellings_half_year,Dwellings approved H1,DE,2026-H1,126300,dwellings,SRC315,+15.1%
+I0024,architecture_construction,dwellings_completed,Dwellings completed,DE,2020,306400,dwellings,SRC278,
+I0025,architecture_construction,dwellings_completed,Dwellings completed,DE,2025,206000,dwellings,SRC278,-18%
+I0026,architecture_construction,expired_building_permits,Expired building permits (dwellings),DE,2022,22800,dwellings,SRC278,
+I0027,architecture_construction,expired_building_permits,Expired building permits (dwellings),DE,2023,22700,dwellings,SRC278,
+I0028,architecture_construction,expired_building_permits,Expired building permits (dwellings),DE,2024,29000,dwellings,SRC278,
+I0029,architecture_construction,expired_building_permits,Expired building permits (dwellings),DE,2025,35700,dwellings,SRC278,
+I0030,architecture_construction,one_two_family_homes_approved,One/two-family homes approved,DE,2025,50755,buildings,SRC279,+14.6%
+I0031,architecture_construction,permit_backlog,Approved but not completed dwellings (Bauüberhang),DE,2024,759700,dwellings,SRC278,
+I0032,architecture_construction,permit_backlog,Approved but not completed dwellings (Bauüberhang),DE,2025,760700,dwellings,SRC278,
+I0033,architecture_construction,prefab_homes_approved,Prefab one/two-family homes approved,DE,2025,13473,buildings,SRC279,
+I0034,architecture_construction,prefab_share_one_two_family_permits,Prefab share of approved one/two-family homes,DE,2014,16.2,percent,SRC279,
+I0035,architecture_construction,prefab_share_one_two_family_permits,Prefab share of approved one/two-family homes,DE,2023,24.5,percent,SRC279,
+I0036,architecture_construction,prefab_share_one_two_family_permits,Prefab share of approved one/two-family homes,DE,2025,26.5,percent,SRC279,record
+I0037,care_elderly,ambulatory_care_private_share,Private share of ambulatory care services,DE,2023,68.5,percent,SRC185,
+I0038,care_elderly,ambulatory_care_services_count,Ambulatory care services (ambulante Pflegedienste),DE,2023,15549,count,SRC184,
+I0039,care_elderly,ambulatory_care_staff,Staff in ambulatory care services,DE,2023,446425,persons,SRC184,Headcount.
+I0040,care_elderly,ambulatory_care_staff_parttime_share,Part-time (social-insured) share in ambulatory care staff,DE,2023,52.7,percent,SRC184,Plus 15.8% minijobs.
+I0041,care_elderly,care_at_home_share,Share cared for at home,DE,2023,86,percent,SRC182,
+I0042,care_elderly,care_at_home_total,People in need of care cared for at home,DE,2023,4900000,persons,SRC182,86% of total.
+I0043,care_elderly,care_in_nursing_homes,People fully inpatient in nursing homes,DE,2019,818317,persons,SRC183,
+I0044,care_elderly,care_in_nursing_homes,People fully inpatient in nursing homes,DE,2023,800000,persons,SRC182,"14%; +6,000 (+0.8%) vs 2021."
+I0045,care_elderly,care_pflegegeld_only,People receiving only Pflegegeld (mainly relatives),DE,2019,2116451,persons,SRC183,
+I0046,care_elderly,care_pflegegeld_only,People receiving only Pflegegeld (mainly relatives),DE,2023,3100000,persons,SRC182,
+I0047,care_elderly,care_with_ambulatory_services,Cared for at home with ambulatory care services,DE,2019,982604,persons,SRC183,
+I0048,care_elderly,care_with_ambulatory_services,Cared for at home with ambulatory care services,DE,2023,1100000,persons,SRC182,
+I0049,care_elderly,care_workers_demand,Demand for care workers (projection),DE,2049,2150000,persons,SRC189,1.62m in 2019.
+I0050,care_elderly,care_workers_gap_status_quo,"Care worker gap, status-quo variant",DE,2049,690000,persons,SRC189,"350,000 in 2034."
+I0051,care_elderly,care_workers_gap_trend,"Care worker gap, trend variant",DE,2034,90000,persons,SRC189,
+I0052,care_elderly,care_workers_gap_trend,"Care worker gap, trend variant",DE,2049,280000,persons,SRC189,
+I0053,care_elderly,forecast_people_80plus_in_need_of_care,Projected people 80+ in need of care,DE,2055,4400000,persons,SRC188,2.7m in 2021.
+I0054,care_elderly,forecast_people_in_need_of_care,Projected people in need of care (constant care rates),DE,2035,5600000,persons,SRC188,Destatis projection base 2021.
+I0055,care_elderly,forecast_people_in_need_of_care,Projected people in need of care (constant care rates),DE,2055,6800000,persons,SRC188,
+I0056,care_elderly,forecast_people_in_need_of_care,Projected people in need of care (constant care rates),DE,2070,6900000,persons,SRC188,
+I0057,care_elderly,forecast_people_in_need_of_care_high,Projected people in need of care (with introduction effects),DE,2035,6300000,persons,SRC188,Variant with care rates rising until 2027; 2023 actual already above constant-rate path.
+I0058,care_elderly,forecast_people_in_need_of_care_high,Projected people in need of care (with introduction effects),DE,2055,7600000,persons,SRC188,
+I0059,care_elderly,inpatient_care_facilities_count,Inpatient care facilities incl. day/night care,DE,2023,16505,count,SRC184,Includes Tages-/Nachtpflege.
+I0060,care_elderly,inpatient_care_nonprofit_share,Non-profit share of inpatient care facilities,DE,2023,53.3,percent,SRC185,
+I0061,care_elderly,inpatient_care_private_share,Private share of inpatient care facilities,DE,2023,42.4,percent,SRC185,
+I0062,care_elderly,inpatient_care_staff,Staff in inpatient care facilities,DE,2023,817711,persons,SRC184,Headcount.
+I0063,care_elderly,ltc_benefit_recipients,Recipients of social long-term care insurance benefits,DE,2015,2800000,persons,SRC193,
+I0064,care_elderly,ltc_benefit_recipients,Recipients of social long-term care insurance benefits,DE,2025,6000000,persons,SRC193,Rounded.
+I0065,care_elderly,ltc_insurance_deficit_projected,Projected long-term care insurance deficit,DE,2027,7.6,EUR_bn,SRC198,4.4bn EUR in 2026.
+I0066,care_elderly,nursing_home_board_lodging,Board and lodging cost in nursing homes,DE,2026-07-01,1068,EUR_per_month,SRC191,"1,018 EUR in July 2025."
+I0067,care_elderly,nursing_home_eee,Einrichtungseinheitlicher Eigenanteil (care share),DE,2025-07-01,1583,EUR_per_month,SRC191,Before Pflegekasse surcharge.
+I0068,care_elderly,nursing_home_eee,Einrichtungseinheitlicher Eigenanteil (care share),DE,2026-07-01,1775,EUR_per_month,SRC191,+12%.
+I0069,care_elderly,nursing_home_investment_cost,Investment costs charged to residents,DE,2026-07-01,521,EUR_per_month,SRC191,507 EUR July 2025.
+I0070,care_elderly,nursing_home_out_of_pocket_first_year,"Average nursing-home out-of-pocket cost, 1st year",DE,2025-01-01,2984,EUR_per_month,SRC192,"Derived: 3,245 minus 261 EUR stated increase."
+I0071,care_elderly,nursing_home_out_of_pocket_first_year,"Average nursing-home out-of-pocket cost, 1st year",DE,2025-07-01,3108,EUR_per_month,SRC191,"First time above 3,000 EUR."
+I0072,care_elderly,nursing_home_out_of_pocket_first_year,"Average nursing-home out-of-pocket cost, 1st year",DE,2026-01-01,3245,EUR_per_month,SRC192,+9% y/y.
+I0073,care_elderly,nursing_home_out_of_pocket_first_year,"Average nursing-home out-of-pocket cost, 1st year",DE,2026-07-01,3364,EUR_per_month,SRC191,+256 EUR y/y.
+I0074,care_elderly,nursing_home_out_of_pocket_max_state,Highest state average out-of-pocket (Bremen),DE,2026-07-01,3761,EUR_per_month,SRC191,
+I0075,care_elderly,nursing_home_out_of_pocket_min_state,Lowest state average out-of-pocket (Sachsen-Anhalt),DE,2026-07-01,2891,EUR_per_month,SRC191,
+I0076,care_elderly,people_in_need_of_care_change_2021_2023,Increase in people in need of care 2021-2023,DE,2021-2023,730000,persons,SRC182,"+15%; only about 100,000 attributable to demography (HC-009)."
+I0077,care_elderly,people_in_need_of_care_growth_2017_2023,Growth of people in need of care 2017-2023,DE,2017-2023,67,percent,SRC187,KBV rounded figure.
+I0078,care_elderly,people_in_need_of_care_total,People in need of care (SGB XI),DE,2019,4127605,persons,SRC183,"Pflegestatistik 2019, Dec 2019."
+I0079,care_elderly,people_in_need_of_care_total,People in need of care (SGB XI),DE,2021,4960000,persons,SRC188,Destatis base value 4.96m (Dec 2021).
+I0080,care_elderly,people_in_need_of_care_total,People in need of care (SGB XI),DE,2023,5690000,persons,SRC182,'Knapp 5.7 million'; Destatis 5.69m per secondary reports.
+I0081,care_elderly,pflegegrad1_at_home,Pflegegrad 1 cared for at home,DE,2023,680000,persons,SRC182,"640,000 used no services of homes or services."
+I0082,care_elderly,pflegegrad1_without_services,Pflegegrad 1 without services of homes/services,DE,2019,208330,persons,SRC183,
+I0083,childcare_schools,care_quota_3_to_school,Care quota age 3 to school entry,DE,2025,95.3,percent,SRC359,
+I0084,childcare_schools,children_in_daycare,Children in Kindertagesbetreuung,DE,as of 2025-03-01,4059400,persons,SRC358,
+I0085,childcare_schools,ganztag_children_primary,Primary pupils in Ganztag/Hort,DE,2025/26,1900000,persons,SRC360,
+I0086,childcare_schools,ganztag_missing_places,Missing Ganztag places by 2029/30,DE,2029/30 projection,264000,count,SRC361,
+I0087,childcare_schools,ganztag_participation_primary,Primary pupils in full-day care,DE,2025/26,57,percent,SRC360,
+I0088,childcare_schools,ganztag_school_share,Primary schools that are Ganztagsschulen,DE,2025/26,74,percent,SRC360,
+I0089,childcare_schools,kitas,Kindertageseinrichtungen,DE,as of 2025-03-01,61000,count,SRC358,rounded
+I0090,childcare_schools,missing_kita_places,Missing Kita places (Ländermonitor),DE,2023,430000,count,SRC357,
+I0091,childcare_schools,missing_kita_places_east,Missing Kita places East,DE,2023,44700,count,SRC357,
+I0092,childcare_schools,missing_kita_places_west,Missing Kita places West,DE,2023,385900,count,SRC357,
+I0093,childcare_schools,private_general_schools,Private general-education schools,DE,2014/15,3600,count,SRC362,"'knapp 3,600'"
+I0094,childcare_schools,private_general_schools,Private general-education schools,DE,2024/25,3800,count,SRC362,
+I0095,childcare_schools,private_school_fee_avg,Average school fee claimed,DE,2021,2042,EUR,SRC362,"599,000 children"
+I0096,childcare_schools,private_school_pupils,Pupils at private general schools,DE,2024/25,807900,persons,SRC362,
+I0097,childcare_schools,public_general_schools,Public general-education schools,DE,2024/25,29000,count,SRC362,
+I0098,childcare_schools,tutoring_spending_high,Parental tutoring spending (high estimate),DE,year not verified,1468,EUR_m,SRC367,
+I0099,childcare_schools,tutoring_spending_low,Parental tutoring spending (low estimate),DE,year not verified,942,EUR_m,SRC367,
+I0100,childcare_schools,u3_care_quota,Under-3 childcare quota,DE,2025,37.8,percent,SRC359,
+I0101,childcare_schools,u3_in_care,Under-3s in Kita/Kindertagespflege,DE,2025,801281,persons,SRC359,"-47,140 YoY"
+I0102,childcare_schools,u3_parental_demand,Under-3 parental care demand,DE,2025,49.3,percent,SRC359,
+I0103,consumer_sustainability,blauer_engel_companies,Companies with Blauer Engel,DE,2026,1800,count,SRC153,"'over 1,800'"
+I0104,consumer_sustainability,blauer_engel_products,Products/services with Blauer Engel,DE,2026,70000,count,SRC153,"'more than 70,000'"
+I0105,consumer_sustainability,empco_one_off_compliance_cost,Estimated one-off compliance cost of EmpCo implementation (Bundesrat),DE,2026,355,EUR_m,SRC148,Search-level
+I0106,consumer_sustainability,eu_ecolabel_licences,EU Ecolabel licences (EU),EU,2026-03,3541,count,SRC152,
+I0107,consumer_sustainability,eu_ecolabel_products,EU Ecolabel products (EU),EU,2026-03,116692,count,SRC152,
+I0108,consumer_sustainability,eu_ecolabel_products_de,EU Ecolabel products in Germany,DE,2025-09,10000,count,SRC152,"'over 10,000'"
+I0109,debt_and_credit,bnpl_usage_6m_share,Share of respondents using BNPL in last 6 months (SCHUFA survey),DE,2025,33,percent,SRC107,Search-level
+I0110,debt_and_credit,consumer_insolvencies,Consumer insolvency proceedings (Verbraucherinsolvenzen),DE,2020,41753,count,SRC100,
+I0111,debt_and_credit,consumer_insolvencies,Consumer insolvency proceedings (Verbraucherinsolvenzen),DE,2021,79620,count,SRC100,Catch-up after shortened discharge period
+I0112,debt_and_credit,consumer_insolvencies,Consumer insolvency proceedings (Verbraucherinsolvenzen),DE,2024,71207,count,SRC101,"Search-level; another outlet reports 71,235"
+I0113,debt_and_credit,consumer_insolvencies,Consumer insolvency proceedings (Verbraucherinsolvenzen),DE,2025,77219,count,SRC099,Sum of monthly Destatis values
+I0114,debt_and_credit,consumer_insolvencies_jan_jul,Consumer insolvencies January-July,DE,2025,45569,count,SRC099,Sum of monthly values
+I0115,debt_and_credit,consumer_insolvencies_jan_jul,Consumer insolvencies January-July,DE,2026,46043,count,SRC099,"Sum of monthly values, +1.0% vs Jan-Jul 2025"
+I0116,debt_and_credit,consumer_insolvency_expected_claims,Expected claims in consumer insolvencies,DE,2021,3460.5,EUR_m,SRC100,
+I0117,debt_and_credit,debt_counselling_average_debt,Average debt of counselled persons,DE,2025,34650,EUR,SRC098,
+I0118,debt_and_credit,debt_counselling_average_debt_men,Average debt of counselled men,DE,2025,39717,EUR,SRC098,
+I0119,debt_and_credit,debt_counselling_average_debt_women,Average debt of counselled women,DE,2025,29500,EUR,SRC098,
+I0120,debt_and_credit,debt_counselling_persons_reported,Persons counselled at participating debt counselling centres,DE,2025,187000,persons,SRC098,Only the 738 reporting centres
+I0121,debt_and_credit,debt_counselling_waiting_time_rlp,"Average waiting time for debt counselling, Rhineland-Palatinate",DE-RP,2018,3.2,months,SRC109,State-level
+I0122,debt_and_credit,debt_trigger_illness_share,Share with illness/addiction/accident as main trigger,DE,2025,18,percent,SRC098,
+I0123,debt_and_credit,overindebted_adults,Over-indebted persons aged 18+ (Creditreform),DE,2021,6160000,persons,SRC096,Rounded to 0.01 m; 2025 extrapolated; Creditreform definition
+I0124,debt_and_credit,overindebted_adults,Over-indebted persons aged 18+ (Creditreform),DE,2022,5880000,persons,SRC096,Rounded to 0.01 m; 2025 extrapolated; Creditreform definition
+I0125,debt_and_credit,overindebted_adults,Over-indebted persons aged 18+ (Creditreform),DE,2023,5650000,persons,SRC096,Rounded to 0.01 m; 2025 extrapolated; Creditreform definition
+I0126,debt_and_credit,overindebted_adults,Over-indebted persons aged 18+ (Creditreform),DE,2024,5560000,persons,SRC096,Rounded to 0.01 m; 2025 extrapolated; Creditreform definition
+I0127,debt_and_credit,overindebted_adults,Over-indebted persons aged 18+ (Creditreform),DE,2025,5670000,persons,SRC096,Rounded to 0.01 m; 2025 extrapolated; Creditreform definition
+I0128,debt_and_credit,overindebted_hard_cases,Over-indebted persons with hard (legal) negative features,DE,2025,3170000,persons,SRC096,"+39,000 vs 2024"
+I0129,debt_and_credit,overindebted_households,Over-indebted households (Creditreform),DE,2021,3080000,households,SRC096,
+I0130,debt_and_credit,overindebted_households,Over-indebted households (Creditreform),DE,2022,2950000,households,SRC096,
+I0131,debt_and_credit,overindebted_households,Over-indebted households (Creditreform),DE,2023,2830000,households,SRC096,
+I0132,debt_and_credit,overindebted_households,Over-indebted households (Creditreform),DE,2024,2780000,households,SRC096,
+I0133,debt_and_credit,overindebted_households,Over-indebted households (Creditreform),DE,2025,2830000,households,SRC096,
+I0134,debt_and_credit,overindebted_soft_cases,Over-indebted persons with soft negative features (persistent payment disruption),DE,2025,2500000,persons,SRC096,"+72,000 vs 2024"
+I0135,debt_and_credit,overindebtedness_rate,Over-indebtedness quota (share of adults),DE,2021,8.86,percent,SRC096,
+I0136,debt_and_credit,overindebtedness_rate,Over-indebtedness quota (share of adults),DE,2022,8.48,percent,SRC096,
+I0137,debt_and_credit,overindebtedness_rate,Over-indebtedness quota (share of adults),DE,2023,8.15,percent,SRC096,
+I0138,debt_and_credit,overindebtedness_rate,Over-indebtedness quota (share of adults),DE,2024,8.09,percent,SRC096,
+I0139,debt_and_credit,overindebtedness_rate,Over-indebtedness quota (share of adults),DE,2025,8.16,percent,SRC096,
+I0140,debt_and_credit,overindebtedness_rate_70plus,"Over-indebtedness quota, 70 and older",DE,2021,3.17,percent,SRC096,
+I0141,debt_and_credit,overindebtedness_rate_70plus,"Over-indebtedness quota, 70 and older",DE,2022,3.07,percent,SRC096,
+I0142,debt_and_credit,overindebtedness_rate_70plus,"Over-indebtedness quota, 70 and older",DE,2023,2.96,percent,SRC096,
+I0143,debt_and_credit,overindebtedness_rate_70plus,"Over-indebtedness quota, 70 and older",DE,2024,2.99,percent,SRC096,
+I0144,debt_and_credit,overindebtedness_rate_70plus,"Over-indebtedness quota, 70 and older",DE,2025,3.12,percent,SRC096,
+I0145,debt_and_credit,overindebtedness_rate_under30,"Over-indebtedness quota, under 30",DE,2021,6.98,percent,SRC096,
+I0146,debt_and_credit,overindebtedness_rate_under30,"Over-indebtedness quota, under 30",DE,2022,6.65,percent,SRC096,
+I0147,debt_and_credit,overindebtedness_rate_under30,"Over-indebtedness quota, under 30",DE,2023,6.73,percent,SRC096,
+I0148,debt_and_credit,overindebtedness_rate_under30,"Over-indebtedness quota, under 30",DE,2024,6.76,percent,SRC096,
+I0149,debt_and_credit,overindebtedness_rate_under30,"Over-indebtedness quota, under 30",DE,2025,6.95,percent,SRC096,
+I0150,dental_care,dental_mvz,Dental MVZ,DE,2015,46,count,SRC230,
+I0151,dental_care,dental_mvz,Dental MVZ,DE,2024,1511,count,SRC230,
+I0152,dental_care,dentists_active,Active dentists,DE,2024,73511,persons,SRC231,
+I0153,dental_care,dentists_self_employed,Self-employed dentists,DE,2024,43663,persons,SRC231,
+I0154,dental_care,dentists_self_employed,Self-employed dentists,DE,2025,42760,persons,SRC230,57.6% of active.
+I0155,dental_care,inhabitants_per_dentist,Inhabitants per dentist,DE,2024,1137,persons,SRC231,
+I0156,digital_health,diga_activated_cumulative,DiGA activated (cumulative),DE,2020-09 to 2024-12,861000,count,SRC221,Previous report as cited in search summary.
+I0157,digital_health,diga_activated_cumulative,DiGA activated (cumulative),DE,2020-09 to 2025-12,1600000,count,SRC221,1.9m prescribed/approved.
+I0158,digital_health,diga_activated_year,DiGA activated in year,DE,2025,690000,count,SRC221,
+I0159,digital_health,diga_admitted_cumulative,DiGA admitted since 2020,DE,2020-2025,74,count,SRC221,
+I0160,digital_health,diga_avg_price,Average DiGA manufacturer price,DE,2025,544,EUR,SRC222,411 EUR in first reporting year.
+I0161,digital_health,diga_deleted_cumulative,DiGA deleted,DE,2020-2025,16,count,SRC221,7 in 2025 alone.
+I0162,digital_health,diga_listed,DiGA in BfArM directory,DE,2025-12-31,58,count,SRC221,"48 permanent, 10 trial."
+I0163,digital_health,diga_spending_cumulative,GKV DiGA spending (cumulative),DE,2020-09 to 2024-12,234,EUR_mn,SRC221,"From prior report, per search summary."
+I0164,digital_health,diga_spending_cumulative,GKV DiGA spending (cumulative),DE,2020-09 to 2025-12,400,EUR_mn,SRC221,
+I0165,digital_health,diga_spending_year,GKV DiGA spending in year,DE,2025,170,EUR_mn,SRC221,'over 170m'.
+I0166,digital_health,epa_created,ePAs created by insurers,DE,2026-04,73000000,count,SRC223,Approx.
+I0167,digital_health,epa_gesundheitsid_registered,Registered GesundheitsIDs (patient ePA access),DE,2026-04,5100000,count,SRC223,
+I0168,digital_health,epa_practices_weekly_access,Practices accessing ePA weekly,DE,2025-10,84000,count,SRC223,
+I0169,digital_health,epa_practices_weekly_access,Practices accessing ePA weekly,DE,2026-04,93000,count,SRC223,Up to.
+I0170,digital_services,ai_use_companies,Companies (10+ employees) using AI,DE,2023,12,percent,SRC371,
+I0171,digital_services,ai_use_companies,Companies (10+ employees) using AI,DE,2024,20,percent,SRC371,
+I0172,digital_services,ai_use_companies,Companies (10+ employees) using AI,DE,2025,26,percent,SRC372,
+I0173,digital_services,ai_use_large,Large firms (250+) using AI,DE,2025,57,percent,SRC372,
+I0174,digital_services,ai_use_medium,Medium firms (50-249) using AI,DE,2025,36,percent,SRC372,
+I0175,digital_services,ai_use_small,Small firms (10-49) using AI,DE,2025,23,percent,SRC372,
+I0176,digital_services,bsi_it_security_labels,BSI IT-Sicherheitskennzeichen awarded,DE,date not verified,37,count,SRC387,
+I0177,digital_services,cyber_share_of_damage,Share of damage from cyberattacks,DE,2025,70,percent,SRC369,
+I0178,digital_services,economic_damage_crime,Damage from theft/espionage/sabotage,DE,2024,266.6,EUR_bn,SRC369,
+I0179,digital_services,economic_damage_crime,Damage from theft/espionage/sabotage,DE,2025,289.2,EUR_bn,SRC369,
+I0180,digital_services,firms_affected_attacks,Firms affected by attacks (12 months),DE,2024,81,percent,SRC369,
+I0181,digital_services,firms_affected_attacks,Firms affected by attacks (12 months),DE,2025,87,percent,SRC369,
+I0182,digital_services,it_specialists_missing,Missing IT specialists,DE,2025,109000,persons,SRC374,
+I0183,digital_services,itk_employment,ITK sector employment,DE,2025,1354000,persons,SRC373,forecast
+I0184,digital_services,itk_market,ITK market volume,DE,2025,235.8,EUR_bn,SRC373,forecast
+I0185,digital_services,nis2_entities,Entities in scope of NIS2UmsuCG,DE,2025-12,29000,count,SRC368,"BSI estimate; others 29,500"
+I0186,employers_work,apprenticeship_new_contracts,New dual training contracts,DE,2025,476000,count,SRC349,
+I0187,employers_work,apprenticeship_places_offered,Training places offered,DE,2025,530300,count,SRC349,
+I0188,employers_work,apprenticeship_unfilled,Unfilled training places,DE,2025,54400,count,SRC349,
+I0189,employers_work,apprenticeship_unfilled_share,Unfilled places as share of company offers,DE,2025,10.6,percent,SRC349,
+I0190,employers_work,apprenticeship_unplaced_applicants,Applicants without training place,DE,2025,84400,persons,SRC349,
+I0191,employers_work,capital_best_trainers_awarded,Companies awarded Capital 'Beste Ausbilder',DE,2025,372,count,SRC383,
+I0192,employers_work,companies_0_9,Companies 0-9 employees,DE,2023,3014655,count,SRC347,
+I0193,employers_work,companies_10_49,Companies 10-49 employees,DE,2023,362827,count,SRC347,
+I0194,employers_work,companies_250plus,Companies 250+ employees,DE,2023,17327,count,SRC347,
+I0195,employers_work,companies_50_249,Companies 50-249 employees,DE,2023,75109,count,SRC347,
+I0196,employers_work,companies_total,Legal units/companies total,DE,2023,3469918,count,SRC347,
+I0197,employers_work,gptw_participants,Companies in GPTW 'Deutschlands Beste Arbeitgeber',DE,2026 edition,1141,count,SRC381,
+I0198,employers_work,home_office_share,Employed working at least occasionally from home,DE,2019,13,percent,SRC350,
+I0199,employers_work,home_office_share,Employed working at least occasionally from home,DE,2022,24,percent,SRC350,
+I0200,employers_work,home_office_share,Employed working at least occasionally from home,DE,2023,23,percent,SRC350,
+I0201,employers_work,home_office_share,Employed working at least occasionally from home,DE,2024,24,percent,SRC350,
+I0202,employers_work,home_office_share,Employed working at least occasionally from home,DE,2025,25,percent,SRC350,
+I0203,employers_work,job_vacancies_iab,Open positions (IAB job vacancy survey),DE,2025-Q1,1180000,count,SRC344,rounded
+I0204,employers_work,job_vacancies_iab,Open positions (IAB job vacancy survey),DE,2025-Q2,1060000,count,SRC344,rounded
+I0205,employers_work,job_vacancies_iab,Open positions (IAB job vacancy survey),DE,2025-Q3,1030000,count,SRC344,rounded
+I0206,employers_work,job_vacancies_iab,Open positions (IAB job vacancy survey),DE,2025-Q4,1260000,count,SRC344,rounded
+I0207,employers_work,job_vacancies_iab,Open positions (IAB job vacancy survey),DE,2026-Q1,1150000,count,SRC344,rounded
+I0208,employers_work,kununu_new_reviews,New kununu reviews,DE,2025,860000,count,SRC379,
+I0209,employers_work,occupations_with_shortage_share,Share of occupations with bottlenecks,DE,2025,51.4,percent,SRC343,
+I0210,employers_work,shortage_occupations_ba,Shortage occupations (BA Engpassanalyse),DE,2023,183,count,SRC345,
+I0211,employers_work,shortage_occupations_ba,Shortage occupations (BA Engpassanalyse),DE,2024,163,count,SRC345,
+I0212,employers_work,shortage_occupations_ba,Shortage occupations (BA Engpassanalyse),DE,2025,157,count,SRC345,
+I0213,employers_work,skilled_gap_altenpflege,Skilled-worker gap Altenpflege,DE,2025,15233,count,SRC343,
+I0214,employers_work,skilled_gap_bauelektrik,Skilled-worker gap Bauelektrik,DE,2025,16270,count,SRC343,
+I0215,employers_work,skilled_vacancies_ba,Registered vacancies for skilled roles (annual avg),DE,2025,402000,count,SRC345,
+I0216,employers_work,skilled_worker_gap,Skilled-worker gap (vacancies without suitable unemployed),DE,2025,369516,count,SRC343,-24.1% vs 2024
+I0217,employers_work,sme_turnover,SME turnover,DE,2023,2800,EUR_bn,SRC348,EUR 2.8 trillion
+I0218,employers_work,sme_turnover_share,SME share of total turnover,DE,2023,28,percent,SRC348,
+I0219,employers_work,stern_best_employers_awarded,Companies awarded in stern/Statista Beste Arbeitgeber,DE,2025,650,count,SRC384,
+I0220,employers_work,top_employers_certified_de,Top Employers certified in Germany,DE,2026,163,count,SRC382,
+I0221,employers_work,unfillable_vacancy_share,Share of vacancies arithmetically unfillable,DE,2025,33.3,percent,SRC343,
+I0222,end_of_life,bdb_represented_locations,Funeral locations represented by BDB,DE,2024,5000,count,SRC180,Approx.; locations not firms; search-level
+I0223,end_of_life,cremation_share,Share of cremations among funerals,DE,2024,80,percent,SRC145,'over 80%'
+I0224,end_of_life,death_notifications_ztr,Death notifications to Zentrales Testamentsregister,DE,2024,1026760,count,SRC139,
+I0225,end_of_life,death_notifications_ztr,Death notifications to Zentrales Testamentsregister,DE,2025,1023864,count,SRC139,
+I0226,end_of_life,deaths,Deaths,DE,2025,1010000,persons,SRC138,"Preliminary, rounded"
+I0227,end_of_life,inheritance_gift_tax_assessed,Assessed inheritance and gift tax,DE,2025,21.4,EUR_bn,SRC142,
+I0228,end_of_life,inheritance_volume_estimate,Estimated annual inheritance and gift volume (upper estimate),DE,2017-2027,400,EUR_bn,SRC143,Model estimate
+I0229,end_of_life,palliative_units,Palliative care units in hospitals,DE,2026,340,count,SRC144,approx.
+I0230,end_of_life,stationary_hospices_adults,Stationary hospices for adults,DE,2026,270,count,SRC144,approx.
+I0231,end_of_life,taxed_transferred_assets,Transferred assets in taxed inheritance/gift cases,DE,2025,141.1,EUR_bn,SRC142,
+I0232,end_of_life,ztr_new_registrations,New registrations in Zentrales Testamentsregister,DE,2024,649775,count,SRC139,
+I0233,end_of_life,ztr_new_registrations,New registrations in Zentrales Testamentsregister,DE,2025,647573,count,SRC139,
+I0234,end_of_life,ztr_registrations_total,Registrations in Zentrales Testamentsregister,DE,2025,24800000,count,SRC139,
+I0235,end_of_life,zvr_new_registrations,New ZVR registrations,DE,2024,368930,count,SRC140,
+I0236,end_of_life,zvr_new_registrations,New ZVR registrations,DE,2025,391842,count,SRC140,
+I0237,end_of_life,zvr_registered_advance_directives,Registered Vorsorgeverfügungen in ZVR (end of year),DE,2024,6417603,count,SRC140,
+I0238,end_of_life,zvr_registered_advance_directives,Registered Vorsorgeverfügungen in ZVR (end of year),DE,2025,6817992,count,SRC140,
+I0239,energy_renovation,bafa_energy_advice_grant_share,BAFA grant share of energy advice fee,DE,2024-08 onward,50,percent,SRC285,previously 80%
+I0240,energy_renovation,bafa_energy_advice_residential_applications,BAFA applications Energieberatung für Wohngebäude (iSFP),DE,2019,10222,count,SRC284,"Haus & Grund cites ~130,600 for 2023"
+I0241,energy_renovation,bafa_energy_advice_residential_applications,BAFA applications Energieberatung für Wohngebäude (iSFP),DE,2020,24621,count,SRC284,"Haus & Grund cites ~130,600 for 2023"
+I0242,energy_renovation,bafa_energy_advice_residential_applications,BAFA applications Energieberatung für Wohngebäude (iSFP),DE,2021,73807,count,SRC284,"Haus & Grund cites ~130,600 for 2023"
+I0243,energy_renovation,bafa_energy_advice_residential_applications,BAFA applications Energieberatung für Wohngebäude (iSFP),DE,2022,134921,count,SRC284,"Haus & Grund cites ~130,600 for 2023"
+I0244,energy_renovation,bafa_energy_advice_residential_applications,BAFA applications Energieberatung für Wohngebäude (iSFP),DE,2023,119716,count,SRC284,"Haus & Grund cites ~130,600 for 2023"
+I0245,energy_renovation,bafa_energy_advice_residential_applications,BAFA applications Energieberatung für Wohngebäude (iSFP),DE,2024,157351,count,SRC284,"Haus & Grund cites ~130,600 for 2023"
+I0246,energy_renovation,bafa_energy_advice_residential_applications,BAFA applications Energieberatung für Wohngebäude (iSFP),DE,2025,112805,count,SRC284,"Haus & Grund cites ~130,600 for 2023"
+I0247,energy_renovation,beg_budget_plan,BEG budget (Klima- und Transformationsfonds),DE,2026,12.1,EUR_bn,SRC262,plan
+I0248,energy_renovation,beg_climate_speed_bonus,BEG Klimageschwindigkeitsbonus,DE,from 2026-07-21,16,percent,SRC286,falls 4 pp per half-year from 2027-02-01
+I0249,energy_renovation,beg_heating_base_rate,BEG heating base funding rate,DE,from 2026-07-21,30,percent,SRC286,
+I0250,energy_renovation,beg_single_measures_budget_plan,BEG single measures (incl. heating) budget,DE,2026,7.7,EUR_bn,SRC262,plan; about 7.1bn in 2025
+I0251,energy_renovation,energy_efficiency_experts_registered,Experts registered in dena Energieeffizienz-Expertenliste,DE,2026,22800,persons,SRC261,"about 20,600 findable online; reference date approx."
+I0252,energy_renovation,renovated_dwelling_units,Dwelling units with envelope renovation,DE,2024,265000,units,SRC259,
+I0253,energy_renovation,renovated_dwelling_units,Dwelling units with envelope renovation,DE,2025,260000,units,SRC260,"dena Leitstudie path would need 460,000"
+I0254,energy_renovation,renovation_rate_facade,Renovation rate facade,DE,2025,0.46,percent,SRC260,
+I0255,energy_renovation,renovation_rate_nonresidential,Renovation rate non-residential buildings,DE,2025,0.92,percent,SRC260,prior year 0.95%
+I0256,energy_renovation,renovation_rate_residential_envelope,Energy renovation rate of residential building envelope (B+L/BuVEG),DE,2022,0.88,percent,SRC259,"envelope only, heating excluded"
+I0257,energy_renovation,renovation_rate_residential_envelope,Energy renovation rate of residential building envelope (B+L/BuVEG),DE,2023,0.7,percent,SRC259,"envelope only, heating excluded"
+I0258,energy_renovation,renovation_rate_residential_envelope,Energy renovation rate of residential building envelope (B+L/BuVEG),DE,2024,0.69,percent,SRC259,"envelope only, heating excluded"
+I0259,energy_renovation,renovation_rate_residential_envelope,Energy renovation rate of residential building envelope (B+L/BuVEG),DE,2025,0.67,percent,SRC260,"envelope only, heating excluded"
+I0260,energy_renovation,renovation_rate_roof,Renovation rate roof,DE,2025,0.74,percent,SRC260,
+I0261,energy_renovation,renovation_rate_windows,Renovation rate windows,DE,2025,1.19,percent,SRC260,
+I0262,energy_renovation,vz_energy_advice_consultations,People advised by Verbraucherzentrale Energieberatung,DE,2024,233000,persons,SRC283,
+I0263,energy_renovation,vz_energy_advice_federal_funding,Federal funding for VZ Energieberatung,DE,2025-2026,65.37,EUR_m,SRC283,
+I0264,financial_advice,atms,ATMs (Geldausgabeautomaten),DE,2023,51224,count,SRC126,
+I0265,financial_advice,atms,ATMs (Geldausgabeautomaten),DE,2024,49752,count,SRC126,
+I0266,financial_advice,atms,ATMs (Geldausgabeautomaten),DE,2025,48055,count,SRC126,
+I0267,financial_advice,bank_branches_domestic,Domestic bank branches (Zweigstellen),DE,2015,34045,count,SRC126,
+I0268,financial_advice,bank_branches_domestic,Domestic bank branches (Zweigstellen),DE,2024,17870,count,SRC126,
+I0269,financial_advice,bank_branches_domestic,Domestic bank branches (Zweigstellen),DE,2025,16799,count,SRC126,
+I0270,financial_advice,credit_institutions,Credit institutions in Germany,DE,2015,1960,count,SRC126,
+I0271,financial_advice,credit_institutions,Credit institutions in Germany,DE,2020,1679,count,SRC126,
+I0272,financial_advice,credit_institutions,Credit institutions in Germany,DE,2024,1368,count,SRC126,
+I0273,financial_advice,credit_institutions,Credit institutions in Germany,DE,2025,1327,count,SRC126,
+I0274,financial_advice,fee_based_investment_advisers,Honorar-Finanzanlagenberater § 34h,DE,2025-07-01,331,count,SRC122,
+I0275,financial_advice,financial_investment_intermediaries,Finanzanlagenvermittler § 34f with licence,DE,2024-10-01,41064,count,SRC121,
+I0276,financial_advice,financial_investment_intermediaries,Finanzanlagenvermittler § 34f with licence,DE,2025-07-01,41050,count,SRC120,
+I0277,financial_advice,real_estate_loan_intermediaries,Immobiliardarlehensvermittler § 34i licences,DE,2026-10-01,58128,count,SRC123,
+I0278,health_clinics,bed_occupancy,Hospital bed occupancy,DE,2025,72.6,percent,SRC209,72.0% in 2024.
+I0279,health_clinics,hospital_beds,Hospital beds (annual average),DE,2002,547000,count,SRC208,
+I0280,health_clinics,hospital_beds,Hospital beds (annual average),DE,2024,473000,count,SRC208,
+I0281,health_clinics,hospital_beds,Hospital beds (annual average),DE,2025,468803,count,SRC209,
+I0282,health_clinics,hospital_leistungsgruppen,Number of hospital Leistungsgruppen,DE,2026,61,count,SRC210,"65 under KHVVG, 61 under KHAG."
+I0283,health_clinics,hospital_private_share,Private share of hospitals,DE,2024,40,percent,SRC208,24% in 2002.
+I0284,health_clinics,hospitals_count,Hospitals (Krankenhäuser),DE,2002,2221,count,SRC208,Destatis Grunddaten via IAQ.
+I0285,health_clinics,hospitals_count,Hospitals (Krankenhäuser),DE,2010,2064,count,SRC208,Destatis Grunddaten via IAQ.
+I0286,health_clinics,hospitals_count,Hospitals (Krankenhäuser),DE,2015,1956,count,SRC208,Destatis Grunddaten via IAQ.
+I0287,health_clinics,hospitals_count,Hospitals (Krankenhäuser),DE,2019,1914,count,SRC208,Destatis Grunddaten via IAQ.
+I0288,health_clinics,hospitals_count,Hospitals (Krankenhäuser),DE,2020,1903,count,SRC208,Destatis Grunddaten via IAQ.
+I0289,health_clinics,hospitals_count,Hospitals (Krankenhäuser),DE,2021,1887,count,SRC208,Destatis Grunddaten via IAQ.
+I0290,health_clinics,hospitals_count,Hospitals (Krankenhäuser),DE,2022,1893,count,SRC208,Destatis Grunddaten via IAQ.
+I0291,health_clinics,hospitals_count,Hospitals (Krankenhäuser),DE,2023,1874,count,SRC208,Destatis Grunddaten via IAQ.
+I0292,health_clinics,hospitals_count,Hospitals (Krankenhäuser),DE,2024,1841,count,SRC208,Destatis Grunddaten via IAQ.
+I0293,health_clinics,hospitals_count,Hospitals (Krankenhäuser),DE,2025,1807,count,SRC209,
+I0294,health_clinics,inpatient_cases,Inpatient hospital cases,DE,2019,19400000,cases,SRC209,
+I0295,health_clinics,inpatient_cases,Inpatient hospital cases,DE,2025,17700000,cases,SRC209,+1.2% vs 2024.
+I0296,health_clinics,klinik_atlas_monthly_visits,Bundes-Klinik-Atlas monthly visits (DKG claim),DE,2025,200000,visits_per_month,SRC212,"DKG estimate; DKV 600,000."
+I0297,health_doctors,ambulatory_care_participants,Physicians and psychotherapists in statutory ambulatory care,DE,2025,191875,persons,SRC201,+1.2%.
+I0298,health_doctors,employed_in_ambulatory_care,Employed physicians/psychotherapists in ambulatory care,DE,2024,55604,persons,SRC201,
+I0299,health_doctors,employed_in_ambulatory_care,Employed physicians/psychotherapists in ambulatory care,DE,2025,58877,persons,SRC201,
+I0300,health_doctors,gp_seats_unfilled,Unfilled GP seats,DE,2025,5000,count,SRC201,"Approximate, nationwide."
+I0301,health_doctors,gps_count,Hausärztinnen und Hausärzte,DE,2024,55435,persons,SRC201,
+I0302,health_doctors,gps_count,Hausärztinnen und Hausärzte,DE,2025,55778,persons,SRC201,
+I0303,health_doctors,physicians_aged_60plus_share,Share of working physicians aged 60+,DE,2025,23.4,percent,SRC200,
+I0304,health_doctors,physicians_foreign,Physicians without German citizenship,DE,2025,71480,persons,SRC200,
+I0305,health_doctors,physicians_parttime_share,Part-time share of physicians,DE,2014,15,percent,SRC200,Destatis.
+I0306,health_doctors,physicians_parttime_share,Part-time share of physicians,DE,2024,28,percent,SRC200,Destatis.
+I0307,health_doctors,physicians_working,Working physicians,DE,2024,437162,persons,SRC200,BÄK; value from 2024 Ärztestatistik as reported.
+I0308,health_doctors,physicians_working,Working physicians,DE,2025,446000,persons,SRC200,"Rounded, +2.0%."
+I0309,health_doctors,practice_owners,Practice owners (Vertragsärzte/-psychotherapeuten with own practice),DE,2024,123752,persons,SRC201,
+I0310,health_doctors,practice_owners,Practice owners (Vertragsärzte/-psychotherapeuten with own practice),DE,2025,122903,persons,SRC201,
+I0311,health_doctors,specialist_wait_days_avg,Average wait for specialist appointment (statutory insured),DE,2019,33,days,SRC203,
+I0312,health_doctors,specialist_wait_days_avg,Average wait for specialist appointment (statutory insured),DE,2024,42,days,SRC203,
+I0313,health_doctors,specialist_wait_over_30_days_share,Insured waiting >30 days for specialist,DE,2025,25,percent,SRC202,Self-reported.
+I0314,health_doctors,specialist_wait_too_long_share,Insured rating specialist waits as too long,DE,2025,30,percent,SRC202,
+I0315,health_doctors,tss_bookings,Appointments booked via Terminservicestellen 116117,DE,2023,1100000,count,SRC206,Approximate.
+I0316,health_doctors,tss_bookings,Appointments booked via Terminservicestellen 116117,DE,2024,1500000,count,SRC206,Approximate.
+I0317,health_doctors,tss_bookings,Appointments booked via Terminservicestellen 116117,DE,2025,1937494,count,SRC205,Excl. later cancellations.
+I0318,health_doctors,tss_search_success_share,Share of 116117 searches leading to timely appointment,DE,2025,46,percent,SRC205,
+I0319,heat_pumps,apprentices_anlagenmechaniker_shk,Apprentices Anlagenmechaniker SHK,DE,2025,40770,persons,SRC263,+0.8%
+I0320,heat_pumps,beg_approvals_half_year,BEG applications approved,DE,2024-02/2024-06,48023,count,SRC262,excl. supplementary applications
+I0321,heat_pumps,beg_approvals_half_year,BEG applications approved,DE,2025-H1,146739,count,SRC262,excl. supplementary applications
+I0322,heat_pumps,beg_heating_commitments_total,KfW BEG heating funding commitments (all heating types),DE,2024,192000,count,SRC249,
+I0323,heat_pumps,biomass_heating_sales,Biomass heating systems sold,DE,2025,29000,units,SRC256,+23%
+I0324,heat_pumps,gas_condensing_boiler_sales,Gas condensing boilers sold,DE,2025,229000,units,SRC256,-36%
+I0325,heat_pumps,heat_generator_sales_total,All heat generators sold (BDH),DE,2025,627000,units,SRC256,-12% vs 2024
+I0326,heat_pumps,heat_pump_sales_air_source,Air-source heat pumps sold,DE,2024,178000,units,SRC249,
+I0327,heat_pumps,heat_pump_sales_ground_source,Ground-source heat pumps sold,DE,2024,8000,units,SRC249,
+I0328,heat_pumps,heat_pump_sales_ground_source,Ground-source heat pumps sold,DE,2025,16000,units,SRC248,5% share
+I0329,heat_pumps,heat_pump_sales_half_year,Heat pumps sold in H1,DE,2025-H1,139000,units,SRC262,
+I0330,heat_pumps,heat_pump_sales_heating,Heating heat pumps sold (BWP),DE,2023,356000,units,SRC249,"BWP sales statistics; other sources give 354,000 for 2023"
+I0331,heat_pumps,heat_pump_sales_heating,Heating heat pumps sold (BWP),DE,2024,193000,units,SRC249,"BWP sales statistics; other sources give 354,000 for 2023"
+I0332,heat_pumps,heat_pump_sales_heating,Heating heat pumps sold (BWP),DE,2025,299000,units,SRC248,"BWP sales statistics; other sources give 354,000 for 2023"
+I0333,heat_pumps,heat_pump_sales_quarter,Heat pumps sold in Q1,DE,2025-Q1,62000,units,SRC314,
+I0334,heat_pumps,heat_pump_share_air_source,Air-water share of heat pump sales,DE,2025,95,percent,SRC248,
+I0335,heat_pumps,hot_water_heat_pump_sales,Hot-water heat pumps sold,DE,2025,49500,units,SRC248,not counted in heating heat pumps
+I0336,heat_pumps,kfw_heat_pump_funding_commitments,KfW BEG funding commitments for heat pumps,DE,2024,151000,count,SRC249,"ZfK/BMWK gives 153,576 approvals for 2024"
+I0337,heat_pumps,kfw_heat_pump_funding_commitments,KfW BEG funding commitments for heat pumps,DE,2025,288000,count,SRC248,+91%
+I0338,heat_pumps,kfw_heat_pump_funding_commitments_h1,Heat pump funding approvals H1,DE,2025-H1,124595,count,SRC262,
+I0339,heat_pumps,oil_heating_sales,Oil heating systems sold,DE,2025,22500,units,SRC256,-74%
+I0340,heat_pumps,shk_businesses,SHK trade businesses,DE,2023,48300,count,SRC264,ZVSHK base figure as reported
+I0341,heat_pumps,shk_businesses,SHK trade businesses,DE,2024,48050,count,SRC264,
+I0342,heat_pumps,shk_businesses,SHK trade businesses,DE,2025,48000,count,SRC263,rounded 'rund 48.000'
+I0343,heat_pumps,shk_trade_employees,SHK trade employees,DE,2025,390000,persons,SRC263,
+I0344,heat_pumps,shk_trade_turnover,SHK trade turnover,DE,2025,59.1,EUR_bn,SRC263,
+I0345,heat_pumps,thermondo_heat_pumps_installed,Heat pumps installed by Thermondo,DE,2025,5456,units,SRC287,"company-reported, about 3% market share"
+I0346,heat_pumps,thermondo_revenue,Thermondo group revenue,DE,2025,212,EUR_m,SRC287,
+I0347,higher_education,che_students_surveyed,Students surveyed for CHE ranking,DE,2025,120000,persons,SRC388,
+I0348,higher_education,private_hei_student_share,Share of students at private HEIs,DE,2001/02,1.6,percent,SRC363,
+I0349,higher_education,private_hei_student_share,Share of students at private HEIs,DE,2021/22,11.6,percent,SRC363,
+I0350,higher_education,private_hei_student_share,Share of students at private HEIs,DE,2025,14,percent,SRC366,ZEW
+I0351,higher_education,private_hei_students,Students at private HEIs,DE,2021/22,342600,persons,SRC363,
+I0352,higher_education,private_hei_students,Students at private HEIs,DE,2025/26,400000,persons,SRC365,"'almost 400,000' (VPH)"
+I0353,higher_education,students_german,German students,DE,WS 2024/25,2376000,persons,SRC364,
+I0354,higher_education,students_total,Students at HEIs,DE,WS 2023/24,2868300,persons,SRC364,
+I0355,higher_education,students_total,Students at HEIs,DE,WS 2024/25,2868600,persons,SRC364,
+I0356,home_adaptation,age_appropriate_dwellings_missing,Missing age-appropriate dwellings (Pestel),DE,current (study date unconfirmed),2200000,dwellings,SRC282,
+I0357,home_adaptation,age_appropriate_dwellings_needed,Age-appropriate dwellings needed by 2040 (Pestel),DE,2040,3300000,dwellings,SRC282,projection
+I0358,home_adaptation,barrier_reduced_dwellings,"Barrier-reduced dwellings (no steps, level shower)",DE,2022,1200000,dwellings,SRC251,1.0 million incl. large rooms
+I0359,home_adaptation,households_65plus_long_tenure,Households (main earner 65+) living >23 years in same dwelling,DE,2022,61,percent,SRC299,
+I0360,home_adaptation,kfw_455b_budget,KfW 455-B Altersgerecht Umbauen grant budget,DE,2024,150,EUR_m,SRC252,
+I0361,home_adaptation,kfw_455b_budget,KfW 455-B Altersgerecht Umbauen grant budget,DE,2025,0,EUR_m,SRC306,no funds in 2025 budget
+I0362,home_adaptation,kfw_455b_budget,KfW 455-B Altersgerecht Umbauen grant budget,DE,2026,50,EUR_m,SRC252,exhausted 2026-07-30
+I0363,home_adaptation,kfw_455b_budget,KfW 455-B Altersgerecht Umbauen grant budget,DE,before 2024 (typical year),75,EUR_m,SRC252,usually exhausted by mid-year
+I0364,home_adaptation,kfw_455b_dwellings_expected,Dwellings expected to be made barrier-reduced with 455-B,DE,2026,26800,dwellings,SRC252,ministry estimate
+I0365,home_adaptation,kfw_455b_max_grant_single_measure,KfW 455-B max grant single measures,DE,2026,2500,EUR,SRC252,10% of costs
+I0366,home_adaptation,kfw_455b_max_grant_standard,KfW 455-B max grant Altersgerechtes Haus,DE,2026,6250,EUR,SRC252,12.5% of costs
+I0367,home_adaptation,mobility_restricted_households,Households with mobility-restricted members,DE,2022,3000000,households,SRC251,'gut 3 Millionen'
+I0368,home_adaptation,mobility_restricted_households_projection,Projected mobility-restricted households,DE,2035,3700000,households,SRC251,projection
+I0369,home_adaptation,pflegekasse_home_adaptation_max_grant,Pflegekasse max grant per adaptation measure (§40 SGB XI),DE,2024,4000,EUR,SRC307,
+I0370,home_adaptation,pflegekasse_home_adaptation_max_grant,Pflegekasse max grant per adaptation measure (§40 SGB XI),DE,2025,4180,EUR,SRC253,
+I0371,home_adaptation,stairlift_service_score_industry_mean,DISQ service score stairlift providers (mean),DE,2025,70.5,points (0-100),SRC298,6 providers
+I0372,insurance,average_natural_hazard_claim,Average insured Elementarschaden,DE,2025,4700,EUR,SRC128,
+I0373,insurance,insurance_advisers_registered,Versicherungsberater (fee-based) § 34d(2),DE,2023-10-01,326,count,SRC119,
+I0374,insurance,insurance_advisers_registered,Versicherungsberater (fee-based) § 34d(2),DE,2024-10-01,324,count,SRC118,
+I0375,insurance,insurance_advisers_registered,Versicherungsberater (fee-based) § 34d(2),DE,2026-10-01,336,count,SRC117,
+I0376,insurance,insurance_brokers_registered,Versicherungsmakler with § 34d(1) licence,DE,2023-10-01,46407,count,SRC119,
+I0377,insurance,insurance_brokers_registered,Versicherungsmakler with § 34d(1) licence,DE,2024-10-01,46666,count,SRC118,
+I0378,insurance,insurance_brokers_registered,Versicherungsmakler with § 34d(1) licence,DE,2026-10-01,47329,count,SRC117,
+I0379,insurance,insurance_intermediary_register_entries,Entries in DIHK insurance intermediary register,DE,2011-01,263452,count,SRC125,
+I0380,insurance,insurance_intermediary_register_entries,Entries in DIHK insurance intermediary register,DE,2014-09-30,241003,count,SRC124,
+I0381,insurance,insurance_intermediary_register_entries,Entries in DIHK insurance intermediary register,DE,2015-10-01,235335,count,SRC124,
+I0382,insurance,insurance_intermediary_register_entries,Entries in DIHK insurance intermediary register,DE,2023-10-01,183709,count,SRC119,
+I0383,insurance,insurance_intermediary_register_entries,Entries in DIHK insurance intermediary register,DE,2024-10-01,182845,count,SRC118,
+I0384,insurance,insurance_intermediary_register_entries,Entries in DIHK insurance intermediary register,DE,2026-10-01,179065,count,SRC117,
+I0385,insurance,insurers_supervised,"Insurance undertakings under German federal supervision (life, health, P&C, reinsurers, Pensions-/Sterbekassen)",DE,2010,582,count,SRC127,
+I0386,insurance,insurers_supervised,"Insurance undertakings under German federal supervision (life, health, P&C, reinsurers, Pensions-/Sterbekassen)",DE,2020,523,count,SRC127,
+I0387,insurance,insurers_supervised,"Insurance undertakings under German federal supervision (life, health, P&C, reinsurers, Pensions-/Sterbekassen)",DE,2023,504,count,SRC127,
+I0388,insurance,long_term_care_supplementary_policies,Private Pflegezusatzversicherung policies (non-subsidised),DE,2010,1699.5,thousand_policies,SRC127,
+I0389,insurance,long_term_care_supplementary_policies,Private Pflegezusatzversicherung policies (non-subsidised),DE,2015,2583.6,thousand_policies,SRC127,
+I0390,insurance,long_term_care_supplementary_policies,Private Pflegezusatzversicherung policies (non-subsidised),DE,2020,2853.5,thousand_policies,SRC127,
+I0391,insurance,long_term_care_supplementary_policies,Private Pflegezusatzversicherung policies (non-subsidised),DE,2021,3245.9,thousand_policies,SRC127,
+I0392,insurance,long_term_care_supplementary_policies,Private Pflegezusatzversicherung policies (non-subsidised),DE,2022,3261.2,thousand_policies,SRC127,
+I0393,insurance,long_term_care_supplementary_policies,Private Pflegezusatzversicherung policies (non-subsidised),DE,2023,3248.2,thousand_policies,SRC127,
+I0394,insurance,long_term_care_supplementary_policies,Private Pflegezusatzversicherung policies (non-subsidised),DE,2024,3222,thousand_policies,SRC127,
+I0395,insurance,natural_hazard_property_damage,Insured natural-hazard property damage,DE,2025,1.4,EUR_bn,SRC128,
+I0396,insurance,pflege_bahr_policies,State-subsidised Pflegezusatzversicherung (Pflege-Bahr),DE,2024,890.1,thousand_policies,SRC127,
+I0397,insurance,residential_buildings_without_natural_hazard_cover,Share of residential buildings without Elementarschutz,DE,2026,41,percent,SRC128,GDV evaluation published June 2026
+I0398,insurance,tied_insurance_agents_registered,Gebundene Versicherungsvertreter § 34d(7),DE,2023-10-01,103576,count,SRC119,
+I0399,insurance,tied_insurance_agents_registered,Gebundene Versicherungsvertreter § 34d(7),DE,2024-10-01,102833,count,SRC118,
+I0400,insurance,tied_insurance_agents_registered,Gebundene Versicherungsvertreter § 34d(7),DE,2026-10-01,97896,count,SRC117,
+I0401,legal_services,female_share_lawyers,Female share among admitted lawyers,DE,2026-01-01,37.9,percent,SRC131,
+I0402,legal_services,households_with_legal_insurance_share,Share of households with legal expenses insurance,DE,2025,60,percent,SRC130,
+I0403,legal_services,law_firm_companies,Berufsausübungsgesellschaften admitted to bar chambers,DE,2025-01-01,5126,count,SRC131,
+I0404,legal_services,law_firm_companies,Berufsausübungsgesellschaften admitted to bar chambers,DE,2026-01-01,5462,count,SRC131,
+I0405,legal_services,lawyers_admitted,Admitted Rechtsanwälte (all admission types),DE,2025-01-01,166504,persons,SRC131,
+I0406,legal_services,lawyers_admitted,Admitted Rechtsanwälte (all admission types),DE,2026-01-01,167547,persons,SRC131,
+I0407,legal_services,lawyers_single_admission,Rechtsanwälte in Einzelzulassung,DE,2025-01-01,138715,persons,SRC131,
+I0408,legal_services,lawyers_single_admission,Rechtsanwälte in Einzelzulassung,DE,2026-01-01,138420,persons,SRC131,
+I0409,legal_services,legal_expenses_insurance_benefits,Legal expenses insurance benefits paid,DE,2025,4.1,EUR_bn,SRC130,
+I0410,legal_services,legal_expenses_insurance_claims,Legal expenses insurance claims,DE,2025,5.1,million_claims,SRC130,
+I0411,legal_services,legal_expenses_insurance_contracts,Legal expenses insurance contracts,DE,2015,21.8,million_contracts,SRC127,Group contract counting changes
+I0412,legal_services,legal_expenses_insurance_contracts,Legal expenses insurance contracts,DE,2020,23.1,million_contracts,SRC127,Group contract counting changes
+I0413,legal_services,legal_expenses_insurance_contracts,Legal expenses insurance contracts,DE,2023,27.1,million_contracts,SRC127,Group contract counting changes
+I0414,legal_services,legal_expenses_insurance_contracts,Legal expenses insurance contracts,DE,2024,25.7,million_contracts,SRC127,Group contract counting changes
+I0415,legal_services,legal_expenses_insurance_contracts,Legal expenses insurance contracts,DE,2025,26.2,million_contracts,SRC130,
+I0416,legal_services,legal_expenses_insurance_premiums,Legal expenses insurance gross premiums,DE,2019,4271,EUR_m,SRC127,
+I0417,legal_services,legal_expenses_insurance_premiums,Legal expenses insurance gross premiums,DE,2020,4397,EUR_m,SRC127,
+I0418,legal_services,legal_expenses_insurance_premiums,Legal expenses insurance gross premiums,DE,2021,4594,EUR_m,SRC127,
+I0419,legal_services,legal_expenses_insurance_premiums,Legal expenses insurance gross premiums,DE,2022,4728,EUR_m,SRC127,
+I0420,legal_services,legal_expenses_insurance_premiums,Legal expenses insurance gross premiums,DE,2023,5018,EUR_m,SRC127,
+I0421,legal_services,legal_expenses_insurance_premiums,Legal expenses insurance gross premiums,DE,2024,5283,EUR_m,SRC127,
+I0422,legal_services,legal_expenses_insurers,Legal expenses insurers,DE,2024,43,count,SRC127,
+I0423,legal_services,specialist_lawyers,Fachanwälte,DE,2025-01-01,46148,persons,SRC131,
+I0424,legal_services,specialist_lawyers,Fachanwälte,DE,2026-01-01,47436,persons,SRC131,
+I0425,legal_services,specialist_lawyers_labour_law,Fachanwälte für Arbeitsrecht,DE,2026-01-01,11253,persons,SRC131,
+I0426,legal_services,syndikus_lawyers,Syndikusrechtsanwälte,DE,2025-01-01,7585,persons,SRC131,
+I0427,legal_services,syndikus_lawyers,Syndikusrechtsanwälte,DE,2026-01-01,8279,persons,SRC131,
+I0428,media_rankings_market,chambers_germany_firms_ranked,Law firms ranked by Chambers Germany,DE,2025,251,count,SRC086,
+I0429,media_rankings_market,chambers_germany_firms_ranked,Law firms ranked by Chambers Germany,DE,2026,313,count,SRC086,251 in 2025
+I0430,media_rankings_market,deutschland_test_entities_examined,Brands/services/products examined by DEUTSCHLAND TEST,DE,2013-2026,22000,count,SRC051,'über 22.000'
+I0431,media_rankings_market,deutschland_test_studies_per_year,DEUTSCHLAND TEST studies/tests per year,DE,2026,60,count,SRC051,approx.
+I0432,media_rankings_market,dkg_directory_annual_cost,DKG Krankenhausverzeichnis funding need,DE,2025,120000,EUR,SRC068,DKG figure
+I0433,media_rankings_market,factfield_experts,FactField experts (self-reported),DE,2025,25,persons,SRC034,2023 PDF said 35-person team (FX-012)
+I0434,media_rankings_market,factfield_studies_per_year,FactField studies per year,DE,2025,20,count,SRC034,
+I0435,media_rankings_market,focus_aerzteliste_listed_doctors,Doctors listed in FOCUS-Ärzteliste,DE,2026,32000,persons,SRC043,'über 32.000'; 61 specialties.
+I0436,media_rankings_market,focus_aerzteliste_specialties,Specialties in FOCUS-Ärzteliste,DE,2026,61,count,SRC043,
+I0437,media_rankings_market,focus_anwaelte_lawyers_contacted,Lawyers contacted for FOCUS Top-Anwälte,DE,2015,12797,persons,SRC049,"9,164 firm lawyers + 3,633 in-house"
+I0438,media_rankings_market,focus_business_full_page_ad_price,FOCUS-Business 1/1 page ad rate,DE,2025,16800,EUR,SRC050,list price net
+I0439,media_rankings_market,focus_klinikliste_departments_analysed,Specialist departments analysed,DE,2026 edition,14000,count,SRC039,approx.
+I0440,media_rankings_market,focus_klinikliste_hospitals_analysed,Public hospitals analysed for FOCUS Klinikliste,DE,2026 edition,1618,count,SRC039,
+I0441,media_rankings_market,focus_klinikliste_specialties,Specialties in Klinikliste,DE,2026 edition,59,count,SRC039,
+I0442,media_rankings_market,focus_klinikliste_specialties,Diseases & specialties in Klinikliste,DE,2027 edition,57,count,SRC042,
+I0443,media_rankings_market,focus_pflegeheime_questionnaires,Nursing homes sent questionnaire,DE,2026,11268,count,SRC041,
+I0444,media_rankings_market,focus_pflegeheime_recommended,Nursing homes recommended (online),DE,2026,3600,count,SRC041,"approx.; print 3,657 (FX-017)"
+I0445,media_rankings_market,focus_pflegeheime_universe,Fully inpatient nursing homes in starting universe,DE,2026,12000,count,SRC041,approx.
+I0446,media_rankings_market,focus_tam_companies_awarded,SMEs awarded Top-Arbeitgeber Mittelstand,DE,2025,4000,count,SRC045,"approx., 40 industries"
+I0447,media_rankings_market,focus_tam_companies_invited,Companies invited to Top-Arbeitgeber Mittelstand survey,DE,2025,200000,count,SRC045,approx.
+I0448,media_rankings_market,focus_top_arbeitgeber_reviews,Reviews analysed for FOCUS Business Top-Arbeitgeber,DE,2025,850000,count,SRC046,"search snippet; 33,000 companies, 36 industries"
+I0449,media_rankings_market,focus_wirtschaftskanzleien_attorneys_surveyed,Attorneys surveyed for Top-Wirtschaftskanzleien,DE,2026,26000,persons,SRC047,approx.
+I0450,media_rankings_market,handelsblatt_portals_ranked,Online portals assessed in Handelsblatt/ServiceValue ranking,DE,2026,351,count,SRC079,"47,734 verdicts"
+I0451,media_rankings_market,klinik_atlas_annual_cost,Bundes-Klinik-Atlas annual cost,DE,2025,1500000,EUR,SRC068,"approx., reported"
+I0452,media_rankings_market,klinik_atlas_hospitals_with_errors_share,Share of general hospitals finding errors in Klinik-Atlas,DE,2024,79,percent,SRC066,n=412
+I0453,media_rankings_market,pflegenoten_average_grade,Average Pflegenote across facilities,DE,before 2019,1.2,grade,SRC060,">13,000 facilities"
+I0454,media_rankings_market,rehaportal_premium_seal_clinics,Rehab clinics with Rehaportal Premium-Siegel,DE,2026,233,count,SRC080,
+I0455,media_rankings_market,rehaportal_users,DAS REHAPORTAL users,DE,2025,1900000,persons,SRC079,"'über 1,9 Millionen'"
+I0456,media_rankings_market,seal_licence_fee_focus_empfehlung,Annual licence fee 'FOCUS Empfehlung' seal,DE,2020,1900,EUR,SRC028,"LG reports cited ~EUR 2,000 net (FX-005)."
+I0457,media_rankings_market,seal_licence_fee_focus_top_mediziner,Annual licence fee FOCUS 'TOP Mediziner' seal,DE,2020,2000,EUR,SRC028,Per seal per year as reported by ZDFheute.
+I0458,media_rankings_market,servicevalue_studies_per_year,ServiceValue studies per year,DE,2026,250,count,SRC017,'mehr als 250'
+I0459,media_rankings_market,statista_rankings_team,Statista rankings team size,Global,2026,120,persons,SRC076,'more than 120'
+I0460,media_rankings_market,stiftung_warentest_products_tested,Products tested by Stiftung Warentest per year,DE,as of 2026,2000,count,SRC070,'mehr als 2 000'
+I0461,mental_health,mental_disorder_12m_prevalence_adults,Adults with a mental disorder within 12 months,DE,2009-2012,27.8,percent,SRC219,About 17.8m persons; DEGS1-MH.
+I0462,mental_health,psychologists_psychotherapists_statutory,Psychological psychotherapists in statutory care,DE,2025,36197,persons,SRC201,Via KBV Bundesarztregister; +3.7% psychotherapy overall.
+I0463,mental_health,psychotherapy_extrabudget_spending,Extra-budgetary psychotherapy spending,DE,2025,3.8,EUR_bn,SRC220,
+I0464,mental_health,psychotherapy_kassensitze_growth,Growth of psychotherapy Kassensitze,DE,2015-2025,8.8,percent,SRC220,
+I0465,mental_health,psychotherapy_patients_per_year,Patients in ambulatory psychotherapy per year,DE,2025,3000000,persons,SRC220,Approx.
+I0466,mental_health,psychotherapy_providers_growth,Growth of psychotherapy providers in statutory care,DE,2015-2025,46.7,percent,SRC220,
+I0467,mental_health,psychotherapy_quarterly_cases,Treated psychotherapy quarterly cases,DE,2013,4600000,cases,SRC220,
+I0468,mental_health,psychotherapy_quarterly_cases,Treated psychotherapy quarterly cases,DE,2023,7400000,cases,SRC220,
+I0469,mental_health,psychotherapy_wait_days_bavaria,Days from first consultation to therapy start (Bavaria),DE,pre-2023,139,days,SRC218,KVB study.
+I0470,mental_health,psychotherapy_wait_first_contact_weeks,Wait for first consultation,DE,2018,5.7,weeks,SRC217,12.5 weeks before 2017 reform.
+I0471,mental_health,psychotherapy_wait_to_start_weeks,Wait to start of guideline psychotherapy,DE,2018,19.9,weeks,SRC217,BPtK survey.
+I0472,mobility_ev,bev_new_registrations,BEV passenger car new registrations,DE,2024,380609,count,SRC322,KBA via ADAC; -27.4% vs 2023
+I0473,mobility_ev,bev_new_registrations,BEV passenger car new registrations,DE,2025,545142,count,SRC319,KBA via electrive
+I0474,mobility_ev,bev_new_registrations_yoy,BEV new registrations growth vs prior year,DE,2025,43.2,percent,SRC319,
+I0475,mobility_ev,bev_private_new_registrations,Private BEV new registrations,DE,2024,136570,count,SRC375,
+I0476,mobility_ev,bev_share_new_registrations,BEV share of passenger car new registrations,DE,2023,18.4,percent,SRC322,"2023 count not stated on page (~144,000 more than 2024)"
+I0477,mobility_ev,bev_share_new_registrations,BEV share of passenger car new registrations,DE,2024,13.5,percent,SRC322,
+I0478,mobility_ev,bev_share_new_registrations,BEV share of passenger car new registrations,DE,2025,19.1,percent,SRC319,
+I0479,mobility_ev,bev_share_of_car_stock,BEV share of passenger car stock,DE,as of 2024-01-01,2.85,percent,SRC321,
+I0480,mobility_ev,bev_share_of_car_stock,BEV share of passenger car stock,DE,as of 2026-01-01,4.1,percent,SRC320,
+I0481,mobility_ev,bev_stock,BEV passenger cars in stock,DE,as of 2024-01-01,1408681,count,SRC321,
+I0482,mobility_ev,bev_stock,BEV passenger cars in stock,DE,as of 2025-01-01,1651643,count,SRC320,
+I0483,mobility_ev,bev_stock,BEV passenger cars in stock,DE,as of 2026-01-01,2034260,count,SRC320,
+I0484,mobility_ev,car_new_registrations_total,Total passenger car new registrations,DE,2025,2900000,count,SRC319,rounded 'about 2.9 million'
+I0485,mobility_ev,car_stock_total,Passenger cars registered,DE,as of 2026-01-01,49486487,count,SRC320,
+I0486,mobility_ev,ev_subsidy_2026_budget,New EV purchase subsidy budget,DE,2026-2029,3,EUR_bn,SRC377,
+I0487,mobility_ev,ev_subsidy_2026_max_amount,Maximum EV purchase subsidy per car,DE,2026,6000,EUR,SRC377,"BEV, low income/children"
+I0488,mobility_ev,ev_subsidy_2026_vehicles,Vehicles expected to be funded by new EV subsidy,DE,2026-2029,800000,count,SRC377,
+I0489,mobility_ev,kfw440_wallbox_applications,KfW 440 wallbox subsidy applications,DE,2020-2021,974449,count,SRC328,
+I0490,mobility_ev,kfw440_wallbox_funded,KfW 440 applications funded with EUR 900,DE,2020-2021,689980,count,SRC328,
+I0491,mobility_ev,phev_new_registrations,Plug-in hybrid new registrations,DE,2025,311398,count,SRC319,+62.3%
+I0492,mobility_ev,phev_share_new_registrations,PHEV share of new registrations,DE,2025,10.9,percent,SRC319,
+I0493,mobility_ev,public_charging_points,Public charging points (BNetzA Ladesäulenregister),DE,as of 2025-01-01,165295,count,SRC324,
+I0494,mobility_ev,public_charging_points,Public charging points (BNetzA Ladesäulenregister),DE,as of 2025-06-01,169082,count,SRC323,
+I0495,mobility_ev,public_charging_points,Public charging points (BNetzA Ladesäulenregister),DE,as of 2026-01-01,193985,count,SRC324,
+I0496,mobility_ev,public_charging_points,Public charging points (BNetzA Ladesäulenregister),DE,as of 2026-04-01,200255,count,SRC325,
+I0497,mobility_ev,public_charging_points_fast,Public fast charging points,DE,as of 2025-06-01,38669,count,SRC323,
+I0498,mobility_ev,public_charging_points_normal,Public normal (AC) charging points,DE,as of 2025-06-01,128198,count,SRC323,
+I0499,mobility_ev,umweltbonus_applications,Umweltbonus applications received,DE,2023,396584,count,SRC327,vehicle applications
+I0500,mobility_ev,umweltbonus_applications,Umweltbonus applications received,DE,2023-12,28493,count,SRC327,final month
+I0501,mobility_ev,umweltbonus_applications_cumulative,Umweltbonus applications since 2016,DE,2016-2023,2262201,count,SRC327,
+I0502,mobility_ev,umweltbonus_bev_funded,BEVs funded by Umweltbonus,DE,2016-2023,1400000,count,SRC326,'over 1.4 million'
+I0503,mobility_ev,umweltbonus_total_funding,Umweltbonus total funding paid,DE,2016-2023,10.2,EUR_bn,SRC326,
+I0504,mobility_ev,umweltbonus_vehicles_funded,Vehicles funded by Umweltbonus,DE,2016-2023,2200000,count,SRC326,approx.
+I0505,mobility_ev,used_bev_ownership_transfers,Used BEV ownership transfers (Besitzumschreibungen),DE,2024,173034,count,SRC375,
+I0506,mobility_ev,used_bev_ownership_transfers,Used BEV ownership transfers,DE,2025-Q1,50423,count,SRC375,+~61% YoY
+I0507,mobility_services,carsharing_places,Municipalities with car-sharing offer,DE,as of 2025-01-01,1393,count,SRC341,
+I0508,mobility_services,carsharing_places,Places with car-sharing offer,DE,as of 2026-01-01,1479,count,SRC340,
+I0509,mobility_services,carsharing_users_station_based,Station-based car-sharing users,DE,as of 2026-01-01,978300,persons,SRC340,
+I0510,mobility_services,carsharing_users_total,Car-sharing registered users,DE,as of 2024-01-01,4505600,persons,SRC342,
+I0511,mobility_services,carsharing_vehicles_station_based,Station-based car-sharing vehicles,DE,as of 2026-01-01,18390,count,SRC340,
+I0512,mobility_services,carsharing_vehicles_total,Car-sharing vehicles total,DE,as of 2025-01-01,45400,count,SRC341,
+I0513,mobility_services,carsharing_vehicles_total,Car-sharing vehicles total,DE,as of 2026-01-01,43190,count,SRC340,-4.9%; definition caveat
+I0514,mobility_services,deutschlandticket_federal_funding,Federal annual funding for Deutschlandticket,DE,2023-2030,1.5,EUR_bn,SRC329,Länder pay same
+I0515,mobility_services,deutschlandticket_price,Deutschlandticket monthly price,DE,2026,63,EUR,SRC329,
+I0516,mobility_services,deutschlandticket_price,Deutschlandticket monthly price,DE,2027,66.8,EUR,SRC329,index-based
+I0517,mobility_services,deutschlandticket_subscriptions,Deutschlandticket subscriptions,DE,2024-12,14550000,count,SRC331,
+I0518,mobility_services,deutschlandticket_subscriptions,Deutschlandticket subscriptions,DE,2025-01,13550000,count,SRC331,after price rise to EUR 58
+I0519,mobility_services,deutschlandticket_users,Deutschlandticket customers,DE,2026,14500000,persons,SRC329,approx.
+I0520,mobility_services,driving_licence_cost_avg,Average cost of Class B driving licence,DE,2025,3400,EUR,SRC334,per BMV
+I0521,mobility_services,driving_practical_fail_rate_classB,Class B practical test failure rate,DE,2024,37,percent,SRC337,
+I0522,mobility_services,driving_practical_fail_rate_classB,Class B practical test failure rate,DE,2025,37,percent,SRC338,
+I0523,mobility_services,driving_practical_tests,Practical driving tests conducted,DE,2025,1890000,count,SRC338,approx.
+I0524,mobility_services,driving_schools_reporting_decline,Driving schools reporting fewer registrations since Nov 2025,DE,2025-11 to 2026,84,percent,SRC335,"n≈2,400 schools"
+I0525,mobility_services,driving_theory_fail_rate_all,Theory test failure rate all classes,DE,2024,41,percent,SRC337,
+I0526,mobility_services,driving_theory_fail_rate_classB,Class B theory test failure rate,DE,2024,45,percent,SRC337,
+I0527,mobility_services,driving_theory_fail_rate_classB,Class B theory test failure rate,DE,2025,44,percent,SRC338,
+I0528,mobility_services,driving_theory_tests,Theory driving tests conducted,DE,2025,2040000,count,SRC338,
+I0529,mobility_services,kfz_businesses,Kfz-Betriebe (motor trade & repair businesses),DE,2024,36030,count,SRC332,
+I0530,mobility_services,kfz_businesses_innung,Automotive businesses in Innungen (>=EUR 100k turnover),DE,2025,35780,count,SRC333,DAT definition
+I0531,mobility_services,kfz_employees,Employees in Kfz-Gewerbe,DE,2024,428000,persons,SRC332,
+I0532,mobility_services,kfz_service_revenue,Service & repair revenue of Kfz-Gewerbe,DE,2024,36,EUR_bn,SRC332,+7.4%
+I0533,real_estate_services,agent_listing_share_top10_cities,Share of flats listed via agents on ImmoScout24 (10 largest cities),DE,2024-Q4,61,percent,SRC297,
+I0534,real_estate_services,agent_listing_share_top10_cities,Share of flats listed via agents on ImmoScout24 (10 largest cities),DE,2025-Q3,67,percent,SRC297,
+I0535,real_estate_services,agent_listing_share_top10_cities,Share of flats listed via agents on ImmoScout24 (10 largest cities),DE,2025-Q4,65,percent,SRC297,
+I0536,real_estate_services,grundsteuer_objections_estimate,Owner objections against Grundsteuer assessments (estimate),DE,2022-2025,2800000,count,SRC281,academic estimate via secondary sources
+I0537,real_estate_services,house_price_index_change,"Residential property price index, annual change",DE,2023,-8.4,percent,SRC272,revised
+I0538,real_estate_services,house_price_index_change,"Residential property price index, annual change",DE,2024,-1.5,percent,SRC272,
+I0539,real_estate_services,house_price_index_change_yoy_quarter,Residential property prices vs prior-year quarter,DE,2025-Q4,3,percent,SRC272,
+I0540,real_estate_services,house_price_index_change_yoy_quarter,Residential property prices vs prior-year quarter,DE,2026-Q1,1.4,percent,SRC318,
+I0541,real_estate_services,house_price_index_change_yoy_quarter,Residential property prices vs prior-year quarter,DE,2026-Q2,0.6,percent,SRC273,
+I0542,real_estate_services,property_managers_dropping_mandates_share,Property managers who dropped unprofitable mandates,DE,2025,57,percent,SRC275,survey
+I0543,real_estate_services,property_managers_overloaded_share,Property management firms reporting overload,DE,2025,70,percent,SRC275,survey
+I0544,real_estate_services,real_estate_loan_intermediaries,Licensed real-estate loan intermediaries §34i GewO,DE,as of 2026-07,58014,count,SRC313,
+I0545,real_estate_services,weg_fee_increase_planned,Planned average WEG administration fee increase,DE,2025,12,percent,SRC275,up to 17% small properties
+I0546,retirement_finance,aktivrente_taxfree_monthly,Tax-free monthly earnings under Aktivrente,DE,2026,2000,EUR,SRC112,
+I0547,retirement_finance,altersvorsorgedepot_max_subsidy,"Maximum annual basic subsidy, Altersvorsorgedepot",DE,2027,540,EUR,SRC113,
+I0548,retirement_finance,fruehstart_rente_monthly,Monthly state contribution per child (Frühstart-Rente),DE,2027,10,EUR,SRC111,
+I0549,retirement_finance,pension_system_distrust_share,Share distrusting the pension system (DWS report),DE,2025,83,percent,SRC115,Search-level
+I0550,retirement_finance,pension_worry_share_hdi,Share at least partly very worried about financial hardship in old age (HDI/YouGov),DE,2025,57,percent,SRC114,Search-level
+I0551,retirement_finance,riester_allowance_recipients,Persons receiving Riester allowances/tax relief,DE,2021,10.2,million_persons,SRC110,
+I0552,retirement_finance,riester_allowance_recipients,Persons receiving Riester allowances/tax relief,DE,2024,7.6,million_persons,SRC110,
+I0553,retirement_finance,riester_contracts,Riester contracts in force,DE,2015,16.5,million_contracts,SRC110,"Read from BMAS chart, rounded"
+I0554,retirement_finance,riester_contracts,Riester contracts in force,DE,2016,16.6,million_contracts,SRC110,"Read from BMAS chart, rounded"
+I0555,retirement_finance,riester_contracts,Riester contracts in force,DE,2017,16.6,million_contracts,SRC110,"Read from BMAS chart, rounded"
+I0556,retirement_finance,riester_contracts,Riester contracts in force,DE,2018,16.6,million_contracts,SRC110,"Read from BMAS chart, rounded"
+I0557,retirement_finance,riester_contracts,Riester contracts in force,DE,2019,16.5,million_contracts,SRC110,"Read from BMAS chart, rounded"
+I0558,retirement_finance,riester_contracts,Riester contracts in force,DE,2020,16.4,million_contracts,SRC110,"Read from BMAS chart, rounded"
+I0559,retirement_finance,riester_contracts,Riester contracts in force,DE,2021,16.2,million_contracts,SRC110,"Read from BMAS chart, rounded"
+I0560,retirement_finance,riester_contracts,Riester contracts in force,DE,2022,15.9,million_contracts,SRC110,"Read from BMAS chart, rounded"
+I0561,retirement_finance,riester_contracts,Riester contracts in force,DE,2023,15.5,million_contracts,SRC110,"Read from BMAS chart, rounded"
+I0562,retirement_finance,riester_contracts,Riester contracts in force,DE,2024,15,million_contracts,SRC110,"Read from BMAS chart, rounded"
+I0563,retirement_finance,riester_contracts,Riester contracts in force,DE,2025,14.7,million_contracts,SRC110,"Read from BMAS chart, rounded"
+I0564,skilled_trades,handwerk_apprentices,Handwerk apprentices,DE,2021,359981,persons,SRC277,
+I0565,skilled_trades,handwerk_apprentices,Handwerk apprentices,DE,2022,349295,persons,SRC277,
+I0566,skilled_trades,handwerk_apprentices,Handwerk apprentices,DE,2023,342561,persons,SRC277,
+I0567,skilled_trades,handwerk_apprentices,Handwerk apprentices,DE,2024,342092,persons,SRC277,
+I0568,skilled_trades,handwerk_apprentices,Handwerk apprentices,DE,2025,346388,persons,SRC277,2025 extrapolated by ZDH
+I0569,skilled_trades,handwerk_businesses,Handwerk businesses (ZDH),DE,2021,1028138,count,SRC277,
+I0570,skilled_trades,handwerk_businesses,Handwerk businesses (ZDH),DE,2022,1032374,count,SRC277,
+I0571,skilled_trades,handwerk_businesses,Handwerk businesses (ZDH),DE,2023,1037073,count,SRC277,
+I0572,skilled_trades,handwerk_businesses,Handwerk businesses (ZDH),DE,2024,1038254,count,SRC277,
+I0573,skilled_trades,handwerk_businesses,Handwerk businesses (ZDH),DE,2025,1038126,count,SRC277,2025 extrapolated by ZDH
+I0574,skilled_trades,handwerk_employment,Handwerk employment relationships,DE,2021,6549000,jobs,SRC277,jobs counted per job
+I0575,skilled_trades,handwerk_employment,Handwerk employment relationships,DE,2022,6495000,jobs,SRC277,jobs counted per job
+I0576,skilled_trades,handwerk_employment,Handwerk employment relationships,DE,2023,6418000,jobs,SRC277,jobs counted per job
+I0577,skilled_trades,handwerk_employment,Handwerk employment relationships,DE,2024,6322000,jobs,SRC277,jobs counted per job
+I0578,skilled_trades,handwerk_employment,Handwerk employment relationships,DE,2025,6237000,jobs,SRC277,jobs counted per job; 2025 extrapolated by ZDH
+I0579,skilled_trades,handwerk_shortage_occupations,Handwerk occupations with shortage (of 115),DE,2025,59,count,SRC280,35 for 10+ years
+I0580,skilled_trades,handwerk_skill_gap,Unfillable vacancies (Fachkräftelücke) in Handwerk,DE,2025,97337,count,SRC280,-9.5% vs 2024
+I0581,skilled_trades,handwerk_turnover,Handwerk turnover,DE,2021,684.1,EUR_bn,SRC277,
+I0582,skilled_trades,handwerk_turnover,Handwerk turnover,DE,2022,747.6,EUR_bn,SRC277,
+I0583,skilled_trades,handwerk_turnover,Handwerk turnover,DE,2023,781.9,EUR_bn,SRC277,
+I0584,skilled_trades,handwerk_turnover,Handwerk turnover,DE,2024,774.1,EUR_bn,SRC277,
+I0585,skilled_trades,handwerk_turnover,Handwerk turnover,DE,2025,783.2,EUR_bn,SRC277,2025 extrapolated by ZDH
+I0586,skilled_trades,handwerk_unemployed_seeking,Unemployed craftspeople seeking work,DE,2025,139173,persons,SRC280,
+I0587,skilled_trades,handwerk_vacancies,Vacancies in Handwerk occupations (annual avg),DE,2025,209233,count,SRC280,
+I0588,solar_pv,home_segment_pv_systems,PV systems in home segment,DE,as of 2024-12-31,3800000,units,SRC312,
+I0589,solar_pv,home_solar_storage_stock,Home solar battery stock,DE,as of 2024-12-31,1800000,units,SRC312,
+I0590,solar_pv,plugin_solar_registered,Plug-in solar devices (Balkonkraftwerke) newly registered,DE,2025,430000,units,SRC250,
+I0591,solar_pv,plugin_solar_share_of_additions,Plug-in solar share of solar additions,DE,2024,2.5,percent,SRC250,
+I0592,solar_pv,plugin_solar_share_of_additions,Plug-in solar share of solar additions,DE,2025,3.2,percent,SRC250,
+I0593,solar_pv,pv_capacity_added,Solar PV capacity added (BNetzA),DE,2025,16.4,GW,SRC250,
+I0594,solar_pv,pv_capacity_added_bsw,Solar PV capacity added (BSW estimate),DE,2024,17.7,GW,SRC268,
+I0595,solar_pv,pv_capacity_added_bsw,Solar PV capacity added (BSW estimate),DE,2025,17.5,GW,SRC268,
+I0596,solar_pv,pv_capacity_installed_total,Total installed solar PV capacity,DE,as of 2025-12-31,117,GW,SRC250,2030 target 215 GW
+I0597,solar_pv,pv_commercial_rooftop_added,Commercial rooftop PV >30 kW added,DE,2025,3.7,GW,SRC268,
+I0598,solar_pv,pv_consumer_complaints,Complaints about PV systems at Verbraucherzentralen,DE,2022,500,count,SRC267,'knapp 500'
+I0599,solar_pv,pv_consumer_complaints,Complaints about PV systems at Verbraucherzentralen,DE,2023,1700,count,SRC267,44% delivery/performance failures
+I0600,solar_pv,pv_ground_mounted_added,Ground-mounted PV added,DE,2025,8,GW,SRC268,approx.
+I0601,solar_pv,pv_private_rooftop_added,Private rooftop PV added,DE,2024,6.8,GW,SRC268,
+I0602,solar_pv,pv_small_installations_added,PV installations up to 30 kW added,DE,2022,316000,units,SRC267,
+I0603,solar_pv,pv_small_installations_added,PV installations up to 30 kW added,DE,2023,750000,units,SRC267,
+I0604,solar_pv,solar_battery_systems_added,Solar batteries added,DE,2024,600000,units,SRC269,
+I0605,solar_pv,solar_battery_systems_total,Solar battery storage systems in operation,DE,as of 2025-05,2000000,units,SRC269,
+I0606,tax_advice,grundsteuer_objections_hesse,Objections against new Grundsteuer in Hesse,DE-HE,2025,280000,count,SRC137,"Search-level, single state"
+I0607,tax_advice,grundsteuer_properties_revalued,Properties revalued for Grundsteuer reform,DE,2022-2025,36000000,count,SRC136,"'almost 36 million', search-level"
+I0608,tax_advice,lohnsteuerhilfevereine_bvl_members,Lohnsteuerhilfevereine in BVL (31 Dec),DE,2023,304,count,SRC134,2023/2024 search-level
+I0609,tax_advice,lohnsteuerhilfevereine_bvl_members,Lohnsteuerhilfevereine in BVL (31 Dec),DE,2024,296,count,SRC134,2023/2024 search-level
+I0610,tax_advice,lohnsteuerhilfevereine_bvl_members,Lohnsteuerhilfevereine in BVL (31 Dec),DE,2025,287,count,SRC134,2023/2024 search-level
+I0611,tax_advice,tax_adviser_average_age,Average age of tax professionals,DE,2025,53.6,years,SRC132,
+I0612,tax_advice,tax_advisers,Steuerberater (as of 1 Jan),DE,2024,88969,persons,SRC132,
+I0613,tax_advice,tax_advisers,Steuerberater (as of 1 Jan),DE,2025,88995,persons,SRC132,
+I0614,tax_advice,tax_advisers,Steuerberater (as of 1 Jan),DE,2026,89549,persons,SRC133,
+I0615,tax_advice,tax_advisers_self_employed_share,Share self-employed among tax professionals,DE,2025,66.4,percent,SRC132,
+I0616,tax_advice,tax_chamber_members,Members of Steuerberaterkammern (as of 1 Jan),DE,1995,57616,count,SRC132,
+I0617,tax_advice,tax_chamber_members,Members of Steuerberaterkammern (as of 1 Jan),DE,2000,67901,count,SRC132,
+I0618,tax_advice,tax_chamber_members,Members of Steuerberaterkammern (as of 1 Jan),DE,2005,77020,count,SRC132,
+I0619,tax_advice,tax_chamber_members,Members of Steuerberaterkammern (as of 1 Jan),DE,2010,86279,count,SRC132,
+I0620,tax_advice,tax_chamber_members,Members of Steuerberaterkammern (as of 1 Jan),DE,2015,93950,count,SRC132,
+I0621,tax_advice,tax_chamber_members,Members of Steuerberaterkammern (as of 1 Jan),DE,2020,98955,count,SRC132,
+I0622,tax_advice,tax_chamber_members,Members of Steuerberaterkammern (as of 1 Jan),DE,2025,104845,count,SRC132,
+I0623,tax_advice,tax_chamber_members,Members of Steuerberaterkammern (as of 1 Jan),DE,2026,105953,count,SRC133,Search-level
+I0624,tax_advice,tax_practices,Steuerberaterpraxen (without branch offices),DE,2025,53803,count,SRC132,
+I0625,tax_advice,tax_practices,Steuerberaterpraxen,DE,2026,53932,count,SRC133,Search-level
+I0626,tax_advice,tax_trainees,Steuerfachangestellte apprenticeships,DE,2025,17301,count,SRC132,
+I0627,veterinary,households_with_pets_share,Households with pets,DE,2025,43,percent,SRC229,
+I0628,veterinary,pet_supplies_market,Pet supplies market,DE,2025,7,EUR_bn,SRC229,'almost 7bn'.
+I0629,veterinary,vet_clinics,Veterinary clinics,DE,2025,129,count,SRC227,Sum of chamber values.
+I0630,veterinary,vet_practices,Veterinary practices,DE,2025,10385,count,SRC227,"Sum of chamber values, some estimated."
+I0631,veterinary,vets_self_employed,Self-employed veterinarians,DE,2025,11216,persons,SRC227,
+I0632,veterinary,vets_total,Veterinarians registered (total),DE,2025,46089,persons,SRC227,
+I0633,veterinary,vets_working,Veterinarians working as vets,DE,2025,34476,persons,SRC227,72% women.
