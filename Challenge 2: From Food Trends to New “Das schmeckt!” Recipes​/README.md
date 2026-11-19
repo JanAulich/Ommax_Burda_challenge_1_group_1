@@ -13,4 +13,4 @@ Turn food trends into two recipe drafts for *das schmeckt!*.
 | [`data/nutrition/`](data/nutrition/) | [Swiss Food Composition Database extract](data/nutrition/Schweizer_Nahrwertdatenbank%28Generische%20Lebensmittel%29.csv) for calculating nutrition per serving. |
 | [`templates/`](templates/) | [A4 recipe card example](templates/Das-schmeckt-Recipe-Preview-A4.html) and [HTML output requirements](templates/Das-schmeckt-Requirements-HTML.txt). |
 
-**Inputs to confirm:** The full recipe archive CSV and the sample XML referenced in the materials are missing from this folder. Confirm access to Black Forest Labs for image generation.
+The recipe export is available on SharePoint, and you can get the Black Forest Labs API key by scanning the QR code in the presentation.
