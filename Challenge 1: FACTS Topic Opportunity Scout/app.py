@@ -119,89 +119,82 @@ with kpi5:
 
 st.markdown("---")
 
+# Initialize session state for topic selection
+if "selected_topic" not in st.session_state:
+    st.session_state.selected_topic = "heat_pumps"
+
 # Sidebar Controls
 st.sidebar.header("🎯 Topic Selector & Filters")
 selected_ai_model = st.sidebar.selectbox("🤖 AI Model (Tesseracted Gateway):", AVAILABLE_MODELS, index=0)
 
-# Live Jury Search / Fuzzy matcher
-custom_query = st.sidebar.text_input("🔍 Live Jury Search (Type any topic/keyword):", placeholder="e.g. driving, vet, funeral, heat")
-
-domains = sorted(list(set(t.get("domain", "") for t in all_topics if t.get("domain"))))
-selected_domain = st.sidebar.selectbox("Filter by Domain:", ["All Domains"] + domains)
-
-status_filter = st.sidebar.multiselect(
-    "Filter by Status:",
-    options=[s.value for s in OpportunityStatus],
-    default=[s.value for s in OpportunityStatus]
-)
-
-# Filter topic keys
-filtered_topics = []
-for t in all_topics:
-    tk = t["topic_key"]
-    domain = t.get("domain", "")
-    card = next(c for c in all_cards if c.topic_key == tk)
-    
-    if selected_domain != "All Domains" and domain != selected_domain:
-        continue
-    if card.recommended_status.value not in status_filter:
-        continue
-    if custom_query:
-        q = custom_query.lower()
-        search_blob = f"{tk} {t.get('label', '')} {t.get('description', '')}".lower()
-        if q not in search_blob:
-            continue
-    filtered_topics.append(t)
-
-if not filtered_topics:
-    st.warning("No topics match your current filter criteria.")
-    st.stop()
-
-# Topic selector dropdown
-topic_options = {t["topic_key"]: f"{t['topic_key']} — {t['label']} ({t.get('likely_facts_brand', '')})" for t in filtered_topics}
-selected_key = st.sidebar.selectbox(
-    "Select Topic Dossier:",
-    options=list(topic_options.keys()),
-    format_func=lambda x: topic_options[x]
-)
-
-# Showcase Shortcuts
+# 1. Quick Showcase Shortcuts
 st.sidebar.markdown("---")
 st.sidebar.subheader("🌟 Showcase Demos (Quick Jump)")
 col_s1, col_s2 = st.sidebar.columns(2)
 with col_s1:
-    if st.button("Heat Pumps (Pursue)"):
-        selected_key = "heat_pumps"
+    if st.sidebar.button("Heat Pumps 🟢"):
+        st.session_state.selected_topic = "heat_pumps"
+        st.rerun()
 with col_s2:
-    if st.button("Funeral (Kill)"):
-        selected_key = "end_of_life"
+    if st.sidebar.button("Funeral Care 🔴"):
+        st.session_state.selected_topic = "end_of_life"
+        st.rerun()
 
 col_s3, col_s4 = st.sidebar.columns(2)
 with col_s3:
-    if st.button("Digital Health (Monitor)"):
-        selected_key = "digital_health"
+    if st.sidebar.button("Digital Health 🟡"):
+        st.session_state.selected_topic = "digital_health"
+        st.rerun()
 with col_s4:
-    if st.button("Childcare (Pursue)"):
-        selected_key = "childcare_schools"
+    if st.sidebar.button("Childcare 🟢"):
+        st.session_state.selected_topic = "childcare_schools"
+        st.rerun()
+
+# 2. THE SINGLE TOPIC DROPDOWN (Contains all 32 topics)
+st.sidebar.markdown("---")
+st.sidebar.subheader("📂 All 32 Taxonomy Topics")
+
+# Build all topic options
+all_topic_options = {t["topic_key"]: f"{t['label']} ({t.get('domain', '')})" for t in all_topics}
+
+if st.session_state.selected_topic not in all_topic_options:
+    st.session_state.selected_topic = list(all_topic_options.keys())[0]
+
+current_idx = list(all_topic_options.keys()).index(st.session_state.selected_topic)
+
+dropdown_choice = st.sidebar.selectbox(
+    "Choose Topic Dossier:",
+    options=list(all_topic_options.keys()),
+    index=current_idx,
+    format_func=lambda x: all_topic_options[x],
+    key="single_topic_dropdown"
+)
+if dropdown_choice != st.session_state.selected_topic:
+    st.session_state.selected_topic = dropdown_choice
+    st.rerun()
+
+# 3. Live Jury Keyword Finder (Does NOT break the dropdown)
+st.sidebar.markdown("---")
+st.sidebar.subheader("🔍 Jury Wildcard Finder")
+jury_query = st.sidebar.text_input("Type any keyword (e.g. vet, driving, pv):", placeholder="e.g. driving, vet, funeral")
+if jury_query:
+    q = jury_query.strip().lower()
+    matches = [t for t in all_topics if q in f"{t['topic_key']} {t.get('label', '')} {t.get('description', '')}".lower()]
+    if matches:
+        st.sidebar.success(f"Found {len(matches)} match(es):")
+        for m in matches[:3]:
+            if st.sidebar.button(f"👉 Select {m['label']}", key=f"btn_match_{m['topic_key']}"):
+                st.session_state.selected_topic = m['topic_key']
+                st.rerun()
+    else:
+        st.sidebar.warning(f"No topic found matching '{jury_query}'.")
+
+# Active Topic Key
+selected_key = st.session_state.selected_topic
 
 # Generate card for selected topic
 current_card = generator.generate_card(selected_key)
 dossier = loader.get_topic_dossier(selected_key)
-
-# Topic Selector Dropdown on Main View
-main_topic_list = list(topic_options.keys())
-current_idx = main_topic_list.index(selected_key) if selected_key in main_topic_list else 0
-chosen_topic = st.selectbox(
-    "📌 Select Taxonomy Topic to Inspect:",
-    options=main_topic_list,
-    index=current_idx,
-    format_func=lambda x: topic_options[x],
-    key="main_view_topic_selector"
-)
-if chosen_topic != selected_key:
-    selected_key = chosen_topic
-    current_card = generator.generate_card(selected_key)
-    dossier = loader.get_topic_dossier(selected_key)
 
 # Render Opportunity Card
 st.subheader(f"📋 {current_card.proposed_topic}")
