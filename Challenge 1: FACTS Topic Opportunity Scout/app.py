@@ -188,6 +188,21 @@ with col_s4:
 current_card = generator.generate_card(selected_key)
 dossier = loader.get_topic_dossier(selected_key)
 
+# Topic Selector Dropdown on Main View
+main_topic_list = list(topic_options.keys())
+current_idx = main_topic_list.index(selected_key) if selected_key in main_topic_list else 0
+chosen_topic = st.selectbox(
+    "📌 Select Taxonomy Topic to Inspect:",
+    options=main_topic_list,
+    index=current_idx,
+    format_func=lambda x: topic_options[x],
+    key="main_view_topic_selector"
+)
+if chosen_topic != selected_key:
+    selected_key = chosen_topic
+    current_card = generator.generate_card(selected_key)
+    dossier = loader.get_topic_dossier(selected_key)
+
 # Render Opportunity Card
 st.subheader(f"📋 {current_card.proposed_topic}")
 
