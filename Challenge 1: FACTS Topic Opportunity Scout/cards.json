@@ -1,0 +1,224 @@
+[
+  {
+    "proposed_topic": "TOP Providers for Age-appropriate home adaptation",
+    "topic_key": "home_adaptation",
+    "consumer_problem": "Hard to find trustworthy firms that plan and execute barrier-free conversions well.",
+    "target_user": "Older homeowners/tenants and their relatives",
+    "target_entity": "Service providers and specialist firms in Age-appropriate home adaptation",
+    "why_now": "Many dwellings are not barrier-reduced; older people and relatives need support with adaptation, conversion and access to specialised providers. () [S003] | The BAG Wohnungsanpassung connects housing-advice centres and supports people adapting their homes for independent living. () [S102] | Regulatory Milestone: Pflegekasse home adaptation grant raised to EUR 4,180 (2025-01-01) [R021] | Regulatory Milestone: KfW 455-B without budget in 2025 (2025-01-01) [R022] | Market metric: age_appropriate_dwellings_missing = 2200000 dwellings (current (study date unconfirmed)) [I0356]",
+    "portfolio_fit": "Expands FOCUS brand into high-affinity white space under FOCUS Gesundheit / Deutschland Test.",
+    "competitive_situation": "Market type: Directory-dominated. Existing players: BAG Wohnungsanpassung [C007] (public_information_service, quality assessment: no); DISQ Servicestudie Treppenliftanbieter [C112] (consumer_test, quality assessment: yes). Clear gap for transparent, methodology-backed quality orientation.",
+    "evidence": [
+      "C007",
+      "C112",
+      "I0356",
+      "I0357",
+      "P047",
+      "R021",
+      "R022",
+      "S003",
+      "S102"
+    ],
+    "facts": [
+      "6 Large stairlift manufacturers with nationwide service recorded in Germany (2025) via DISQ sample; manufacturer websites [P047]",
+      "age_appropriate_dwellings_needed: 3300000 dwellings in 2040 [I0357]"
+    ],
+    "hypotheses": [
+      "Qualified providers will show positive willingness to license a FOCUS Quality Seal (Commercial status: unclear).",
+      "Consumers consider independent editorial ranking significantly more trustworthy than sponsored lead-generation marketplaces.",
+      "A master list of certified providers can be systematically compiled from official chambers and registers."
+    ],
+    "risks_and_uncertainties": [
+      "Provider universe fragmentation: Reaching smaller regional businesses requires multi-channel sales outreach."
+    ],
+    "historical_learning": "No negative legal precedent or court sanction identified in the dataset for this topic.",
+    "next_validation_questions": [
+      "Can an exhaustive master list be acquired directly from public registers or trade associations?",
+      "What objective quality criteria (certifications, inspection reports, customer satisfaction) can be audited at scale?",
+      "What is the willingness-to-pay among mid-sized providers for a regional or national quality seal?"
+    ],
+    "recommended_status": "Monitor",
+    "human_review_required": false,
+    "human_review_reasons": [],
+    "commercial_potential_label": "unclear",
+    "market_type": "Directory-dominated",
+    "scores": {
+      "consumer_relevance": 3.4,
+      "timing_dynamics": 4.2,
+      "competitive_white_space": 4.2,
+      "portfolio_fit": 4.5,
+      "commercial_potential": 2.0,
+      "risk_uncertainty": 4.0
+    },
+    "overall_score": 3.73
+  },
+  {
+    "proposed_topic": "TOP Providers for Heat pumps & heating replacement",
+    "topic_key": "heat_pumps",
+    "consumer_problem": "Owners must pick an installer for a large, technically demanding investment under changing rules.",
+    "target_user": "Owners replacing a fossil heating system",
+    "target_entity": "Service providers and specialist firms in Heat pumps & heating replacement",
+    "why_now": "Sales went 356,000 (2023) to 193,000 (2024) to 299,000 (2025); heat pumps overtook gas boilers in 2025. (2023-2025) [S259] | 65% rule removed by GModG passed 10 July 2026, in force 29 July 2026; Bio-Treppe from 2029. (2024-2026) [S260] | Regulatory Milestone: GEG amendment (Heizungsgesetz) in force (2024-01-01) [R012] | Regulatory Milestone: KfW takes over BEG heating funding from BAFA (2024-01-01) [R013] | Market metric: apprentices_anlagenmechaniker_shk = 40770 persons (2025) [I0319]",
+    "portfolio_fit": "Expands FOCUS brand into high-affinity white space under Deutschland Test.",
+    "competitive_situation": "Market type: Potential FACTS white space. Existing players: Thermondo [C105] (other, quality assessment: unknown). Clear gap for transparent, methodology-backed quality orientation.",
+    "evidence": [
+      "C105",
+      "I0319",
+      "I0320",
+      "L028",
+      "P045",
+      "R012",
+      "R013",
+      "S259",
+      "S260"
+    ],
+    "facts": [
+      "48000 SHK-Handwerksbetriebe (plumbing, heating, air-con businesses) recorded in Germany (2025) via Handwerksrolle (SHK entries) / ZVSHK Innungen [P045]",
+      "beg_approvals_half_year: 48023 count in 2024-02/2024-06 [I0320]"
+    ],
+    "hypotheses": [
+      "Qualified providers will show positive willingness to license a FOCUS Quality Seal (Commercial status: plausible_but_unvalidated).",
+      "Consumers consider independent editorial ranking significantly more trustworthy than sponsored lead-generation marketplaces.",
+      "A master list of certified providers can be systematically compiled from official chambers and registers."
+    ],
+    "risks_and_uncertainties": [
+      "Legal & Court Precedent: German judicial rulings challenge commercial quality seals lacking transparent criteria [L028].",
+      "Provider universe fragmentation: Reaching smaller regional businesses requires multi-channel sales outreach."
+    ],
+    "historical_learning": "Precedent [L028] 'EmpCo / UWG: sustainability labels need certification': Interpretation: Any 'sustainable provider' TOP list/seal (e.g. green craftsmen, sustainable employers) faces higher legal bar; avoid sustainability-claim seals unless certification-based.",
+    "next_validation_questions": [
+      "Can an exhaustive master list be acquired directly from public registers or trade associations?",
+      "What objective quality criteria (certifications, inspection reports, customer satisfaction) can be audited at scale?",
+      "What is the willingness-to-pay among mid-sized providers for a regional or national quality seal?"
+    ],
+    "recommended_status": "Validate Next",
+    "human_review_required": true,
+    "human_review_reasons": [
+      "Legal precedents / court rulings identified in dataset: L028"
+    ],
+    "commercial_potential_label": "plausible_but_unvalidated",
+    "market_type": "Potential FACTS white space",
+    "scores": {
+      "consumer_relevance": 3.0,
+      "timing_dynamics": 4.4,
+      "competitive_white_space": 4.0,
+      "portfolio_fit": 4.5,
+      "commercial_potential": 4.5,
+      "risk_uncertainty": 2.5
+    },
+    "overall_score": 3.66
+  },
+  {
+    "proposed_topic": "TOP Providers for Digital health",
+    "topic_key": "digital_health",
+    "consumer_problem": "Patients and doctors lack a usable overview of which prescribable app fits which indication.",
+    "target_user": "Patients and prescribing doctors",
+    "target_entity": "Service providers and specialist firms in Digital health",
+    "why_now": "Digital therapeutics, telemedicine and symptom/health platforms broaden the offer for patients. () [S008] | BfArM runs a searchable directory of assessed digital health applications; its guide separates provisional (trial) and permanent listing by required evidence. () [S105] | Regulatory Milestone: Insurers start creating ePA (opt-out) (2025-01-15) [R026] | Regulatory Milestone: ePA nationwide rollout for providers (2025-04-29) [R029] | Market metric: diga_activated_cumulative = 861000 count (2020-09 to 2024-12) [I0156]",
+    "portfolio_fit": "Expands FOCUS brand into high-affinity white space under FOCUS Gesundheit.",
+    "competitive_situation": "Market type: Potential FACTS white space. Existing players: BfArM DiGA-Verzeichnis [C009] (official_register, quality assessment: yes); DiGA-Verzeichnis [C088] (official_register, quality assessment: yes). Clear gap for transparent, methodology-backed quality orientation.",
+    "evidence": [
+      "C009",
+      "C088",
+      "I0156",
+      "I0157",
+      "P020",
+      "R026",
+      "R029",
+      "S008",
+      "S105"
+    ],
+    "facts": [
+      "58 DiGA (digital health applications) recorded in Germany (2025-12-31) via diga.bfarm.de [P020]",
+      "diga_activated_cumulative: 1600000 count in 2020-09 to 2025-12 [I0157]"
+    ],
+    "hypotheses": [
+      "Qualified providers will show positive willingness to license a FOCUS Quality Seal (Commercial status: unclear).",
+      "Consumers consider independent editorial ranking significantly more trustworthy than sponsored lead-generation marketplaces.",
+      "A master list of certified providers can be systematically compiled from official chambers and registers."
+    ],
+    "risks_and_uncertainties": [
+      "YMYL Health/Finance liability: Strict methodology required to prevent misleading ranking claims.",
+      "Provider universe fragmentation: Reaching smaller regional businesses requires multi-channel sales outreach."
+    ],
+    "historical_learning": "No negative legal precedent or court sanction identified in the dataset for this topic.",
+    "next_validation_questions": [
+      "Can an exhaustive master list be acquired directly from public registers or trade associations?",
+      "What objective quality criteria (certifications, inspection reports, customer satisfaction) can be audited at scale?",
+      "What is the willingness-to-pay among mid-sized providers for a regional or national quality seal?"
+    ],
+    "recommended_status": "Monitor",
+    "human_review_required": true,
+    "human_review_reasons": [
+      "Topic is classified as high-impact YMYL (health/finance/legal)."
+    ],
+    "commercial_potential_label": "unclear",
+    "market_type": "Potential FACTS white space",
+    "scores": {
+      "consumer_relevance": 3.5,
+      "timing_dynamics": 3.6,
+      "competitive_white_space": 4.0,
+      "portfolio_fit": 4.5,
+      "commercial_potential": 3.0,
+      "risk_uncertainty": 3.0
+    },
+    "overall_score": 3.51
+  },
+  {
+    "proposed_topic": "TOP Providers for End of life & inheritance",
+    "topic_key": "end_of_life",
+    "consumer_problem": "Relatives must decide quickly, in grief, with little price transparency.",
+    "target_user": "Bereaved relatives; people planning their own funeral",
+    "target_entity": "Service providers and specialist firms in End of life & inheritance",
+    "why_now": "~1.01m deaths in 2025; death notifications to ZTR ~1.02m; birth deficit 352,000. (2024-2025) [S222] | ZVR registrations rose to 6.82m (end-2025) and passed 7m in 2026; 391,842 new in 2025. (2024-2026) [S223] | Market metric: bdb_represented_locations = 5000 count (2024) [I0222]",
+    "portfolio_fit": "Expands FOCUS brand into high-affinity white space under FOCUS Money / FOCUS Gesundheit.",
+    "competitive_situation": "Market type: Directory-dominated. Existing players: notar.de Notarsuche [C062] (official_register, quality assessment: no); Aeternitas [C063] (public_information_service, quality assessment: partial). Clear gap for transparent, methodology-backed quality orientation.",
+    "evidence": [
+      "C062",
+      "C063",
+      "I0222",
+      "I0223",
+      "P027",
+      "P028",
+      "S222",
+      "S223"
+    ],
+    "facts": [
+      "1500 Ambulante Hospizdienste recorded in Germany (2026-07-06) via Hospiz- und Palliativwegweiser (DHPV/DGP) [P027]",
+      "4000 Bestattungsunternehmen (funeral directors) recorded in Germany (2023-2024) via BDB Bestattersuche; Handwerkskammer rolls [P028]",
+      "cremation_share: 80 percent in 2024 [I0223]"
+    ],
+    "hypotheses": [
+      "Qualified providers will show positive willingness to license a FOCUS Quality Seal (Commercial status: plausible_but_unvalidated).",
+      "Consumers consider independent editorial ranking significantly more trustworthy than sponsored lead-generation marketplaces.",
+      "A master list of certified providers can be systematically compiled from official chambers and registers."
+    ],
+    "risks_and_uncertainties": [
+      "YMYL Health/Finance liability: Strict methodology required to prevent misleading ranking claims.",
+      "Provider universe fragmentation: Reaching smaller regional businesses requires multi-channel sales outreach."
+    ],
+    "historical_learning": "No negative legal precedent or court sanction identified in the dataset for this topic.",
+    "next_validation_questions": [
+      "Can an exhaustive master list be acquired directly from public registers or trade associations?",
+      "What objective quality criteria (certifications, inspection reports, customer satisfaction) can be audited at scale?",
+      "What is the willingness-to-pay among mid-sized providers for a regional or national quality seal?"
+    ],
+    "recommended_status": "Do Not Pursue",
+    "human_review_required": true,
+    "human_review_reasons": [
+      "Topic is classified as high-impact YMYL (health/finance/legal).",
+      "Consumer group is acutely vulnerable; commercial seal faces severe public backlash."
+    ],
+    "commercial_potential_label": "plausible_but_unvalidated",
+    "market_type": "Directory-dominated",
+    "scores": {
+      "consumer_relevance": 3.9,
+      "timing_dynamics": 3.0,
+      "competitive_white_space": 4.2,
+      "portfolio_fit": 4.5,
+      "commercial_potential": 3.2,
+      "risk_uncertainty": 1.0
+    },
+    "overall_score": 3.06
+  }
+]
