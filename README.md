@@ -73,7 +73,7 @@ python -m unittest discover -s tests        # offline tests, LLM mocked
 
 ## Deliverables Generated
 
-- 📄 **[cards.json](file:///Users/prashantjoshi/Desktop/Projects-Nidhi/Hackathon-OMMAX-x-Burda/Challenge%201:%20FACTS%20Topic%20Opportunity%20Scout/cards.json)** — Machine-readable opportunity cards.
-- 📑 **[cards.md](file:///Users/prashantjoshi/Desktop/Projects-Nidhi/Hackathon-OMMAX-x-Burda/Challenge%201:%20FACTS%20Topic%20Opportunity%20Scout/cards.md)** — Executive opportunity cards report.
-- 📐 **[LOGIC.md](file:///Users/prashantjoshi/Desktop/Projects-Nidhi/Hackathon-OMMAX-x-Burda/Challenge%201:%20FACTS%20Topic%20Opportunity%20Scout/LOGIC.md)** — One-page prioritisation methodology & scoring rubric.
-- 🗺️ **[TEAM_EXECUTION_PLAN.md](file:///Users/prashantjoshi/Desktop/Projects-Nidhi/Hackathon-OMMAX-x-Burda/TEAM_EXECUTION_PLAN.md)** — Team strategy & 5-minute pitch script.
+- 📄 **[cards.json](Challenge%201%3A%20FACTS%20Topic%20Opportunity%20Scout/cards.json)** — Machine-readable opportunity cards.
+- 📑 **[cards.md](Challenge%201%3A%20FACTS%20Topic%20Opportunity%20Scout/cards.md)** — Executive opportunity cards report.
+- 📐 **[LOGIC.md](Challenge%201%3A%20FACTS%20Topic%20Opportunity%20Scout/LOGIC.md)** — One-page prioritisation methodology & scoring rubric.
+- 🗺️ **TEAM_EXECUTION_PLAN.md** — Team strategy & 5-minute pitch script (kept outside the repository).
